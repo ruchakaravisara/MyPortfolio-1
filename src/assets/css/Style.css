@@ -5,7 +5,7 @@
 
 }
 body{
-    background-color: black;
+    background-color: white;
 }
 body>header{
     height: 6%;
@@ -45,3 +45,71 @@ header>nav>ul>li a:hover{
     color: #1289CC;
 
 }
+/*//////////////////////////////Home///////////////////////////*/
+#home{
+   margin-top: 40px;
+    background : url("../img/homee.jpg") no-repeat center center fixed;
+    height: 600px;
+    width: 100%;
+
+
+}
+#hello{
+    font-size: 35px ;
+    font-family: 'Chivo', sans-serif;
+    color: #00D0FE;
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+#imruchaka{
+    font-size: 60px;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 40px;
+}
+#ruchaka{
+    font-size: 150px;
+    font-family: 'Fuggles', cursive;
+    color: white;
+    position: relative;
+    left: 800px;
+    top: -130px;
+
+}
+span{
+    font-size:40px ;
+    color: #00D0FE;
+    font-family: 'League Spartan', sans-serif;
+    position: relative;
+    left: 100px;
+    top: -300px;
+}
+
+
+#home div a  {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00D0FE;
+    border-radius: 50%;
+    font-size: 30px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: #00D0FE;
+    margin-left: 40px;
+    left: 60px;
+    position: relative;
+    top: -250px;
+
+}
+#home div :hover{
+    box-shadow: 0 0 10px #00D0FE;
+}
+
+
+
