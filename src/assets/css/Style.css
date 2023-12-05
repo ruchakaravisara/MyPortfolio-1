@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+body>header{
+    height: 6%;
+    width: 100%;
+    background: black;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+body>header>nav {
+    margin: 13px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+
+body>header>nav>ul>li {
+    display: inline-block;
+    padding: 0px 10px ;
+    font-size: 20px;
+    font-family:"Britannic Bold";
+    color: white;
+    cursor: pointer;
+
+
+}
+body>header>nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Franklin Gothic Book";
+
+}
+
+header>nav>ul>li a:hover{
+    color: #1289CC;
+
+}
