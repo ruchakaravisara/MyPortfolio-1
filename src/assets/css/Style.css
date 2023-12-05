@@ -27,7 +27,7 @@ body>header>nav>ul>li {
     display: inline-block;
     padding: 0px 10px ;
     font-size: 20px;
-    font-family:"Britannic Bold";
+    font-family: 'League Spartan', sans-serif;
     color: white;
     cursor: pointer;
 
@@ -37,7 +37,7 @@ body>header>nav>ul>li>a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-    font-family: "Franklin Gothic Book";
+    font-family: 'League Spartan', sans-serif;
 
 }
 
