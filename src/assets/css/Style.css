@@ -5,8 +5,9 @@
 
 }
 body{
-    background: rgb(4,4,4);
+    /*background: rgb(4,4,4);
     background: linear-gradient(90deg, rgba(4,4,4,1) 28%, rgba(25,21,21,1) 46%, rgba(35,75,91,1) 92%);
+*/ background: white;
 }
 body>header{
     height: 6%;
@@ -50,7 +51,7 @@ header>nav>ul>li a:hover{
 /*//////////////////////////////Home///////////////////////////*/
 #home{
    margin-top: 40px;
-    background : url("../img/homee.jpg") no-repeat center center fixed;
+    background : url("../img/4-47732_hacker-boy-hacker.jpg")  no-repeat center  fixed;
     height: 600px;
     width: 100%;
 
@@ -67,7 +68,7 @@ header>nav>ul>li a:hover{
 }
 #imruchaka{
     font-size: 60px;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     color: white;
     position: relative;
     left: 100px;
@@ -83,6 +84,7 @@ header>nav>ul>li a:hover{
     top: -130px;
     width: 200px;
     opacity: 50%;
+    font-weight: normal;
 
 
 }
@@ -119,8 +121,128 @@ span{
     left: 550px;
     top: -150px;
 }
+#cv{
+    height: 40px;
+    width: 135px;
+    border-radius: 10%;
+    color: white;
+    font-size: 19px;
+    background-color: #1289CC;
+    border: none;
+    position: relative;
+    top: -200px;
+    left: 600px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#cv:hover{
+    background-color: black;
+}
+#hire{
+    height: 40px;
+    width: 135px;
+    border-radius: 10%;
+    color: white;
+    font-size: 19px;
+    background-color: #1289CC;
+    border: none;
+    position: relative;
+    top: -200px;
+    left: 620px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#hire:hover{
+    background-color: black;
+}
 /*/////////////////////about/////////////////////////*/
-#about{
+#About{
+    width: 100%;
+    height: 850px;
+}
+#About h1{
+    font-size: 100px;
+    opacity: 10%;
+    position: relative;
+    left: 500px;
+    width: 700px;
+    font-weight: bold;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+#About h3{
+    font-size: 30px;
+    position: relative;
+    left: 550px;
+    width: 700px;
+    top: -150px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: normal;
+}
+#About div img{
+    width: 25%;
+    position: relative;
+    left: 200px;
+    top: -50px;
+}
+#im ul{
+    position: relative;
+    left: 750px;
+    top: -450px;
+}
+#im ul li {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: normal;
+}
+#im {
+    height: 100px;
+    width: 500px;
+}
+#im p {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: normal;
+    position: relative;
+    left: 725px;
+    top: -380px;
+}
+#cvv{
+    height: 40px;
+    width: 135px;
+    border-radius: 10%;
+    color: white;
+    font-size: 19px;
+    background-color: black;
+    border: none;
+    position: relative;
+    top: -200px;
+    left: 720px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#cvv:hover{
+    color : #1289CC;
+}
+
+#edu{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    opacity: 50%;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -790px;
+    right: 450px;
+}
+#ed {
+    position: relative;
+    height: 300px;
+    width: 700px;
+    left: 400px;
+    top: -140px;
+}
+#ed p{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+/*#about{
     width: 100%;
     margin-top: 50px;
     height: 650px;
@@ -131,6 +253,7 @@ span{
     color: white;
     font-family: 'League Spartan', sans-serif;
     font-size: 50px;
+    font-weight: normal;
 }
 #div1{
     height: 10px;
@@ -167,13 +290,15 @@ span{
 #div4  h1{
     color: white;
     font-family: 'League Spartan', sans-serif;
-
+font-weight: normal;
 }
 
 #div4  h3{
     color: white;
     font-family: 'League Spartan', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
 }
 #div5{
     height: 5px;
@@ -184,7 +309,7 @@ span{
     left: 350px;
     top: -400px;
 }
-/*////////////////////education/////////////////////////////*/
+!*!///////////////////education////////////////////////////!*!
 #educatio{
     height: 500px;
     width: 100%;
@@ -197,15 +322,107 @@ span{
     color: white;
     font-family: 'League Spartan', sans-serif;
     font-size: 50px;
+    font-weight: normal;
 
 }
-#educatio div:nth-child(1){
+#a{
     height: 10px;
-    width: 230px;
+    width: 260px;
     color: #1289CC;
     background-color: #1289CC;
-    position: absolute;
-    left: 900px;
-    top: 780px ;
+    position: relative;
+   top: 90px;
+    left:100px;
 }
+#primary{
+    position: relative;
+    width: 600px;
+
+}
+#primary h2{
+    color: #1289CC;
+    font-family: 'League Spartan', sans-serif;
+    position: relative;
+    left: 300px;
+    top: 150px;
+
+
+}
+#primary h3{
+    color: white;
+    position: relative;
+    left: 400px;
+    top: 170px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: normal;
+}
+#primary h4{
+    color: white;
+    position: relative;
+    left: 430px;
+    top: 180px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: normal;
+}
+#secondary{
+    position: relative;
+    width: 600px;
+
+}
+#secondary h2{
+    color: #1289CC;
+    font-family: 'League Spartan', sans-serif;
+    position: relative;
+    left: 300px;
+    top: 192px;
+
+
+}
+#secondary h3{
+    color: white;
+    position: relative;
+    left: 400px;
+    top: 200px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: normal;
+}
+#secondary h4{
+    color: white;
+    position: relative;
+    left: 430px;
+    top: 210px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: normal;
+}
+#high{
+    position: relative;
+    width: 600px;
+
+}
+#high h2{
+    color: #1289CC;
+    font-family: 'League Spartan', sans-serif;
+    position: relative;
+    left: 300px;
+    top: 215px;
+
+
+}
+#high h3{
+    color: white;
+    position: relative;
+    left: 400px;
+    top: 220px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: normal;
+}
+#high h4{
+    color: white;
+    position: relative;
+    left: 430px;
+    top: 230px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: normal;
+}*/
+
 
