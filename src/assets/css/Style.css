@@ -178,5 +178,28 @@ span{
     left: 350px;
     top: -400px;
 }
+/*////////////////////education/////////////////////////////*/
+#educatio{
+    height: 500px;
+    width: 100%;
+    background : url("../img/homeee.jpg") no-repeat center center fixed ;
 
+}
+#educatio h1{
+    position: absolute;
+    left: 100px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+
+}
+#educatio div:nth-child(1){
+    height: 10px;
+    width: 230px;
+    color: #1289CC;
+    background-color: #1289CC;
+    position: absolute;
+    left: 900px;
+    top: 780px ;
+}
 
