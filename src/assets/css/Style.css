@@ -8,6 +8,7 @@ body{
     /*background: rgb(4,4,4);
     background: linear-gradient(90deg, rgba(4,4,4,1) 28%, rgba(25,21,21,1) 46%, rgba(35,75,91,1) 92%);
 */ background: white;
+
 }
 body>header{
     height: 6%;
@@ -240,6 +241,46 @@ span{
     font-weight: bold;
 }
 
+/*////////////////////SKILLS///////////////////*/
+#Skill{
+    width: 100%;
+}
+#Skill h1{
+    font-size: 100px;
+    opacity: 10%;
+    position: relative;
+    left: 640px;
+    width: 700px;
+    font-weight: bold;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+#Skill h3{
+    font-size: 30px;
+    position: relative;
+    left:640px;
+    width: 700px;
+    top: -150px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: normal;
+}
+#Skill div{
+    height: 300px;
+    position: relative;
+
+
+}
+#Skill div div img{
+    width:20%;
+}
+#Skill div div{
+    display: inline-block;
+    height: 100px;
+    width: 260px;
+    left: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
 
 
 /*#about{
