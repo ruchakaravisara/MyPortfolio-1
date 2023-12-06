@@ -5,7 +5,8 @@
 
 }
 body{
-    background-color: white;
+    background-color: black;
+
 }
 body>header{
     height: 6%;
@@ -14,6 +15,7 @@ body>header{
     position: fixed;
     top: 0;
     z-index: 2;
+
 }
 body>header>nav {
     margin: 13px;
@@ -69,6 +71,7 @@ header>nav>ul>li a:hover{
     position: relative;
     left: 100px;
     top: 40px;
+    width: 300px;
 }
 #ruchaka{
     font-size: 150px;
@@ -77,6 +80,9 @@ header>nav>ul>li a:hover{
     position: relative;
     left: 800px;
     top: -130px;
+    width: 200px;
+    opacity: 50%;
+
 
 }
 span{
@@ -107,9 +113,70 @@ span{
     top: -250px;
 
 }
-#home div :hover{
-    box-shadow: 0 0 10px #00D0FE;
+/*/////////////////////about/////////////////////////*/
+#about{
+    width: 100%;
+    margin-top: 50px;
+    height: 650px;
+}
+#abo{
+    position: absolute;
+    left: 900px;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 50px;
+}
+#div1{
+    height: 10px;
+    width: 230px;
+    color: #1289CC;
+    background-color: #1289CC;
+    position: absolute;
+    left: 900px;
+    top: 780px ;
+}
+#div3 img{
+    width: 23%;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    z-index: 1;
+}
+#div2 {
+    border: 5px solid #1289CC;
+    height: 400px;
+    width: 350px;
+    position: relative;
+    top: -300px;
+    left: 250px;
+
+}
+#div4{
+    height: 200px;
+    width: 500px;
+    position: relative;
+    top: -600px;
+    left: 800px;
+}
+#div4  h1{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+
 }
 
+#div4  h3{
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+}
+#div5{
+    height: 5px;
+    width: 800px;
+    color: white;
+    background-color: white;
+    position: relative;
+    left: 350px;
+    top: -400px;
+}
 
 
