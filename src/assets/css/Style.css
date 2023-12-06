@@ -281,6 +281,68 @@ span{
     text-align: center;
 
 }
+#Skill div div h4{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+/*/////////////////////SERVICE/////////////////////*/
+#servic{
+    height: 500px;
+    width: 100%;
+}
+#servic h1{
+    font-size: 100px;
+    opacity: 10%;
+    position: relative;
+    left: 610px;
+    width: 700px;
+    font-weight: bold;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+#servic h3{
+    font-size: 30px;
+    position: relative;
+    left:640px;
+    width: 700px;
+    top: -150px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    font-weight: normal;
+}
+#servic div{
+    display: inline-block;
+
+}
+#servic div div{
+    height: 260px;
+    background-color: #F4F4F4;
+    width: 300px;
+    border-radius: 5%;
+    position: relative;
+    left: 120px;
+    margin-right:20px ;
+}
+#servic div div img{
+    width: 20%;
+    position: relative;
+    left: 120px;
+    top: 50px;
+}
+#servic div div h4{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+#servic div div h6{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+
+
+
+
 
 
 /*#about{
