@@ -359,7 +359,7 @@ span{
     position: relative;
     left:640px;
     width: 700px;
-    top: -150px;
+    top: -130px;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     font-weight: normal;
 }
@@ -562,7 +562,22 @@ img {
         padding-inline: 2.5rem;
     }
 }
-
+.card__data h2 span a {
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+#btnViewMore{
+    height: 40px;
+    width: 120px;
+    color: white;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    background-color: black;
+    border-radius: 5%;
+    position: relative;
+    left: 500px;
+}
+#btnViewMore a{
+    color: white;
+}
 
 /*#about{
     width: 100%;

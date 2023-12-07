@@ -6,12 +6,13 @@ container {
 #proj{
     position:relative;
     bottom:0;
-    left:400px;
+    left:600px;
+    width: 900px;
 }
 
 .card {
     width: calc(33.33% - 20px);
-    background-color: #8bb9fe;
+    background-color: #F4F4F4;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
