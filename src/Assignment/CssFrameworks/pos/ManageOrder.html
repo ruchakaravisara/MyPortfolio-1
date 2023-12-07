@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.js"></script>
+
+
+</head>
+<header>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-lg "data-bs-theme="dark"style="background-color: black;" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Manage System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="ManageCustomer.html">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="ManageStore.html">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="ManageOrder.html">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="PlaceOrder.html">Place Order</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<body>
+
+<h2 style="background-color: #25cff2" >ManageOrder</h2>
+
+
+
+<div class="container text-center">
+    <div class="row"  >
+
+        <div class="col" >
+            <h3 style="color: black">Add Order</h3>
+            <form>
+
+                <div class="row mb-3" >
+
+                    <label for="inputOrderid" class="col-sm-2 col-form-label">Order ID</label>
+                    <div class="col-sm-10">
+                        <input type="id" class="form-control" id="inputOrderid">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputid" class="col-sm-2 col-form-label">Customer ID</label>
+                    <div class="col-sm-10">
+                        <input type="id" class="form-control" id="inputid">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputitemID" class="col-sm-2 col-form-label">Item ID</label>
+                    <div class="col-sm-10">
+                        <input type="id" class="form-control" id="inputitemID">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputQuantity" class="col-sm-2 col-form-label">quantity</label>
+                    <div class="col-sm-10">
+                        <input type="quantity" class="form-control" id="inputQuantity">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputdate" class="col-sm-2 col-form-label">date</label>
+                    <div class="col-sm-10">
+                        <input type="date" class="form-control" id="inputdate">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="total" class="col-sm-2 col-form-label">total</label>
+                    <div class="col-sm-10">
+                        <input type="total" class="form-control" id="total">
+                    </div>
+                </div>
+
+
+                <div class="col-6 ms-5">
+                    <button type="button" class="btn btn-success mt-2 mb-3 ms-4" >Save</button>
+                    <button type="button" class="btn btn-info me-1 mt-2 mb-3 ms-4">Update</button>
+
+                </div>
+
+            </form>
+        </div>
+        <div class="col">
+            <h3 style="color: black">Order Details</h3>
+            <table class="table table-bordered border-primary">
+                <thead >
+                <tr>
+                    <th scope="col" style="background-color: #ffc107">#</th>
+                    <th scope="col">OId</th>
+                    <th scope="col">CID</th>
+                    <th scope="col">IID</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Total</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>O001</td>
+                    <td>C001</td>
+                    <td>I001</td>
+                    <td>1</td>
+                    <td>2023/12/12</td>
+                    <td>500</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>O001</td>
+                    <td>C001</td>
+                    <td>I001</td>
+                    <td>1</td>
+                    <td>2023/12/12</td>
+                    <td>500</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>O001</td>
+                    <td>C001</td>
+                    <td>I001</td>
+                    <td>1</td>
+                    <td>2023/12/12</td>
+                    <td>500</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>O001</td>
+                    <td>C001</td>
+                    <td>I001</td>
+                    <td>1</td>
+                    <td>2023/12/12</td>
+                    <td>500</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>O001</td>
+                    <td>C001</td>
+                    <td>I001</td>
+                    <td>1</td>
+                    <td>2023/12/12</td>
+                    <td>500</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>O001</td>
+                    <td>C001</td>
+                    <td>I001</td>
+                    <td>1</td>
+                    <td>2023/12/12</td>
+                    <td>500</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>O001</td>
+                    <td>C001</td>
+                    <td>I001</td>
+                    <td>1</td>
+                    <td>2023/12/12</td>
+                    <td>500</td>
+
+                </tr>
+
+                </tbody>
+            </table>
+            <div class="col-6 ms-5">
+                <button type="button" class="btn btn-danger mt-2 mb-3 ms-4" >Delete</button>
+                <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4">Edit</button>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

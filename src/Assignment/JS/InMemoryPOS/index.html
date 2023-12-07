@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.esm.js"></script>
+    <script src="assets/jquery-3.7.0.min.js"></script>
+
+
+</head>
+<header>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-lg "data-bs-theme="dark"style="background-color: black;" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Manage System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#customer" id="Mcustomer">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#store" id="MStore">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#order" id="MOrder">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="#placeOrder" id="MPlaceOrder">Place Order</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<body>
+
+
+
+
+<main class="container" id="customer">
+    <h2 style="background-color: #ffc107" >ManageCustomer</h2>
+    <section class="container text-center">
+
+        <div class="row"  >
+
+            <div class="col" >
+                <h3 style="color: black">Add Customer</h3>
+                <form>
+
+                    <div class="row mb-3" >
+
+                        <label for="inputid" class="col-sm-2 col-form-label">CID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputid">
+                            <!--<small id="invalidIdMessage" class="text-danger">Invalid ID</small>-->
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputName">
+                            <!--<small id="invalidNameMessage" class="text-danger">Invalid Name</small>-->
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputAddress" class="col-sm-2 col-form-label">address</label>
+                        <div class="col-sm-10">
+                            <input type="address" class="form-control" id="inputAddress">
+                           <!-- <small id="invalidAddressMessage" class="text-danger">Invalid Address</small>-->
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputSalary" class="col-sm-2 col-form-label">contact</label>
+                        <div class="col-sm-10">
+                            <input type="contact" class="form-control" id="inputSalary">
+                            <!--<small id="invalidSalaryMessage" class="text-danger">Invalid Salary</small>-->
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 ms-5">
+                        <button type="button" class="btn btn-success mt-2 mb-3 ms-4" id="btnCustomer" >Save</button>
+                        <button type="button" class="btn btn-info me-1 mt-2 mb-3 ms-4" id="btnUpdateCustomer">Update</button>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="col">
+                <h3 style="color: black">Customer Details</h3>
+                <table class="table table-bordered border-primary" id="tblCus">
+                    <thead >
+                    <tr>
+                     <!--   <th scope="col" style="background-color: #ffc107">#</th>-->
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Contact</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tblCustomer">
+                    <tr>
+                        <!--<th scope="row">1</th>-->
+                      <!--  <td>c001</td>
+                        <td>ruchaka</td>
+                        <td>07712121212</td>
+                        <td>galle</td>-->
+                    </tr>
+                    <tr>
+                      <!--  <th scope="row">1</th>-->
+                       <!-- <td>c001</td>
+                        <td>ruchaka</td>
+                        <td>07712121212</td>
+                        <td>galle</td>-->
+                    </tr>
+
+                    <tr>
+                       <!-- <th scope="row">1</th>-->
+                    <!--    <td>c001</td>
+                        <td>ruchaka</td>
+                        <td>07712121212</td>
+                        <td>galle</td>-->
+                    </tr>
+                    <tr>
+                      <!--  <th scope="row">1</th>-->
+                        <!--<td>c001</td>
+                        <td>ruchaka</td>
+                        <td>07712121212</td>
+                        <td>galle</td>-->
+                    </tr>
+
+                    </tbody>
+                </table>
+                <div class="col-6 ms-5">
+                    <button type="button" class="btn btn-danger mt-2 mb-3 ms-4"  id="btnCustomerDelete">Delete</button>
+                    <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4" id="btnCancleCustomer">cancle</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--items-->
+<main class="container" id="store">
+    <h2 style="background-color: #20c997" >ManageStore</h2>
+    <section class="container text-center">
+        <div class="row"  >
+
+            <div class="col" >
+                <h3 style="color: black">Add Item</h3>
+                <form>
+
+                    <div class="row mb-3" >
+
+                        <label for="inputItemid" class="col-sm-2 col-form-label">SID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputItemid">
+                            <!--<small id="invalidCodeMessage" class="text-danger">Invalid Code</small>-->
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputItemName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputItemName">
+                           <!-- <small id="invalidItemNameMessage" class="text-danger">Invalid Item Name</small>-->
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputItemPrice" class="col-sm-2 col-form-label">Price</label>
+                        <div class="col-sm-10">
+                            <input type="price" class="form-control" id="inputItemPrice">
+                           <!-- <small id="invalidItemPriceMessage" class="text-danger">Invalid Price</small>-->
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputItemQuantity" class="col-sm-2 col-form-label">Quantity</label>
+                        <div class="col-sm-10">
+                            <input type="quantity" class="form-control" id="inputItemQuantity">
+                            <!--<small id="invalidItemQTYMessage" class="text-danger">Invalid Qty</small>-->
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 ms-5">
+                        <button type="button" class="btn btn-success mt-2 mb-3 ms-4" id="btnItem" >Save</button>
+                        <button type="button" class="btn btn-info me-1 mt-2 mb-3 ms-4" id="btnUpdateItem">Update</button>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="col">
+                <h3 style="color: black">Item Details</h3>
+                <table class="table table-bordered border-primary">
+                    <thead >
+                    <tr>
+
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tblItem">
+                    <tr>
+                       <!-- <th scope="row">1</th>
+                        <td>I001</td>
+                        <td>suger</td>
+                        <td>250</td>
+                        <td>1kg</td>-->
+                    </tr>
+                    <tr>
+                       <!-- <th scope="row">1</th>
+                        <td>I001</td>
+                        <td>suger</td>
+                        <td>250</td>
+                        <td>1kg</td>-->
+                    </tr>
+
+                    <tr>
+                       <!-- <th scope="row">1</th>
+                        <td>I001</td>
+                        <td>suger</td>
+                        <td>250</td>
+                        <td>1kg</td>-->
+                    </tr>
+                    <tr>
+                        <!--<th scope="row">1</th>
+                        <td>I001</td>
+                        <td>suger</td>
+                        <td>250</td>
+                        <td>1kg</td>-->
+                    </tr>
+
+                    </tbody>
+                </table>
+                <div class="col-6 ms-5">
+                    <button type="button" class="btn btn-danger mt-2 mb-3 ms-4" id="btnItemDelete" >Delete</button>
+                    <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4" id="btnItemCancle">cancle</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<main class="container" id="order">
+    <h2 style="background-color: #25cff2" >ManageOrder</h2>
+
+
+
+    <section class="container text-center">
+        <div class="row"  >
+
+            <div class="col" >
+                <h3 style="color: black">Add Order</h3>
+                <form>
+
+                    <div class="row mb-3" >
+
+                        <label for="inputOrderid" class="col-sm-2 col-form-label">Order ID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputOrderid">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputdate" class="col-sm-2 col-form-label">date</label>
+                        <div class="col-sm-10">
+                            <input type="datee" class="form-control" id="inputdatee">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputtid" class="col-sm-2 col-form-label">Customer ID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputtid">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputitemmID" class="col-sm-2 col-form-label">Item ID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputitemmID">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputDiscount" class="col-sm-2 col-form-label">Discount</label>
+                        <div class="col-sm-10">
+                            <input type="Discount" class="form-control" id="inputDiscount">
+                        </div>
+                    </div>
+                    <!--<div class="row mb-3">
+                        <label for="inputdate" class="col-sm-2 col-form-label">date</label>
+                        <div class="col-sm-10">
+                            <input type="date" class="form-control" id="inputdate">
+                        </div>
+                    </div>-->
+                    <div class="row mb-3">
+                        <label for="total" class="col-sm-2 col-form-label">total</label>
+                        <div class="col-sm-10">
+                            <input type="total" class="form-control" id="total">
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 ms-5">
+                        <button type="button" class="btn btn-success mt-2 mb-3 ms-4" >Save</button>
+                        <button type="button" class="btn btn-info me-1 mt-2 mb-3 ms-4">Update</button>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="col">
+                <h3 style="color: black">Order Details</h3>
+                <table class="table table-bordered border-primary">
+                    <thead >
+                    <tr>
+
+                        <th scope="col">OId</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">CID</th>
+                        <th scope="col">IID</th>
+                        <th scope="col">Discount</th>
+                        <th scope="col">Total</th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+
+                        <!--<td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>-->
+
+                    </tr>
+                    <tr>
+
+                        <!--<td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+-->
+                    </tr>
+                    <tr>
+
+                        <!--<td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>-->
+
+                    </tr>
+                    <tr>
+
+                      <!--  <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+-->
+                    </tr>
+                    <tr>
+
+                      <!--  <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>-->
+
+                    </tr>
+                    <tr>
+
+                        <!--<td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>-->
+
+                    </tr>
+                    <tr>
+
+                       <!-- <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>-->
+
+                    </tr>
+
+                    </tbody>
+                </table>
+                <div class="col-6 ms-5">
+                    <button type="button" class="btn btn-danger mt-2 mb-3 ms-4" >Delete</button>
+                    <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4">Edit</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--<main class="container" id="placeOrder">
+    <h2 style="background-color: #dfc2c4" >PlaceOrder</h2>
+
+    <div class="row mt-3 border border-dark rounded p-3">
+        <form action="">
+            <div class="row border border-dark rounded p-2">
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">OrderID</span>
+                        <input class="form-control" type="text" placeholder="O001" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">CustomerID</span>
+                        <input class="form-control" type="text" placeholder="C001" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">ItemID</span>
+                        <input class="form-control" type="text" placeholder="I001" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Quantity</span>
+                        <input class="form-control" type="text" placeholder="10" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-5 mb-2 p-3 border border-dark rounded">
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Date</span>
+                        <input class="form-control" type="text" placeholder="2023-12-12" aria-label="Disabled input example" disabled>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Total</span>
+                        <input class="form-control" type="text" placeholder="20000" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Unit Price</span>
+                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Item Name</span>
+                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-10"></div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-primary">Add to Cart</button>
+                    <button type="button" class="btn btn-danger">Clear</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <section class="row mt-3 border border-dark rounded p-3">
+        <div class="row">
+            <table class="table table-striped-columns">
+                <thead>
+                <tr>
+                    <th scope="col">Item ID</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">ItemName</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Total</th>
+
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <th scope="col">I001</th>
+                    <th scope="col">1</th>
+                    <th scope="col">sugar</th>
+                    <th scope="col">300</th>
+                    <th scope="col">300</th>
+
+                </tr>
+                <tr>
+                    <th scope="col">I001</th>
+                    <th scope="col">1</th>
+                    <th scope="col">sugar</th>
+                    <th scope="col">300</th>
+                    <th scope="col">300</th>
+
+                </tr>
+
+
+
+                </tbody>
+            </table>
+        </div>
+        <form action="">
+            <div class="row mt-3">
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Total-Rs:</span>
+                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Discount-Rs:</span>
+                        <input class="form-control" type="number" placeholder="" aria-label="Disabled input example">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Sub Tot-Rs:</span>
+                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="row mt-3">
+            <div class="col-10"></div>
+            <div class="col-2">
+                <button type="button" class="btn btn-success">Purchase</button>
+                <button type="button" class="btn btn-danger">Cancel</button>
+            </div>
+        </div>
+    </section>
+</main>-->
+
+<!--'''''''''''-->
+<main id="placeOrder" class="container-fluid">
+    <section class="justify-content-center">
+
+
+        <div class="col border-black p-4 m-3 border rounded" style="background-color: white">
+            <h5 class=" text-secondary-800 text-center m-lg-3 pt-2" >Place Order</h5>
+
+            <div class="row ">
+
+                <form class=" me-3">
+                    <div class="row border-bottom border-black">
+                        <div class="mb-1 col">
+                            <label for="InputOID" class="form-label text-black">Order ID</label>
+                            <input type="text"
+                                   class="form-control text-black  focus-ring-warning"
+                                   id="InputOID" >
+                        </div>
+                        <div class="mb-1 col mb-4">
+                            <label for="InputDate" class="form-label text-black">Date</label>
+                            <input type="date"
+                                   class="form-control  text-black focus-ring-warning focus-ring"
+                                   id="InputDate">
+                        </div>
+                    </div>
+
+                    <h6 class="justify-content-center" style="background-color: #6f42c1">Customer Details</h6>
+                    <div class="row border-bottom border-black">
+                        <div class="mb-1 col">
+                            <label for="custListId" class="form-label text-black">Cust ID</label>
+                            <select class="form-select  text-black focus-ring-warning focus-ring"
+                                    aria-label="Default select example" id="custListId">
+
+
+                            </select>
+                        </div>
+                        <div class="mb-1 col mb-4">
+                            <label for="cusNamePO" class="form-label text-black">Name</label>
+                            <input type="text" id="cusNamePO"
+                                   class="form-control text-black focus-ring-warning focus-ring ">
+                        </div>
+                    </div>
+
+                    <h6 class="justify-content-center" style="background-color: #20c997">Item Details</h6>
+
+                    <div class="row">
+                        <div class="mb-1 col">
+                            <label for="itemIdList" class="form-label text-black">Code</label>
+                            <select class="form-select text-black focus-ring-warning focus-ring"
+                                    aria-label="Default select example" id="itemIdList">
+                                <!--              <option selected>Open this select menu</option>-->
+
+                            </select>
+                        </div>
+                        <div class="mb-1 col mb-4">
+                            <label for="itemDesPO" class="form-label text-black">Description</label>
+                            <input type="text"
+                                   class="form-control text-black focus-ring-warning focus-ring "
+                                   id="itemDesPO" >
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-1 ">
+                            <label for="itemPricePO" class="form-label text-black">Unit Price</label>
+                            <input type="text"
+                                   class="form-control text-black focus-ring-warning focus-ring "
+                                   id="itemPricePO" >
+                        </div>
+                        <div class="mb-1 col">
+                            <label for="itemQtyHandPO" class="form-label text-black">Qty On Hnd</label>
+                            <input type="text"
+                                   class="form-control text-black focus-ring-warning focus-ring "
+                                   id="itemQtyHandPO" >
+                        </div>
+
+                        <div class="mb-1 col">
+                            <label for="Qty" class="form-label text-black">Qty</label>
+                            <input type="text"
+                                   class="form-control text-black focus-ring-warning focus-ring "
+                                   id="Qty">
+                        </div>
+
+                    </div>
+
+
+
+                </form>
+            </div>
+
+            <div class="row m-0 gap-2 mt-5">
+                <button  id=addToCard type="button" class="bg-info">Add to Card</button>
+                <button id=btnOrderClear type="button" class="btn btn-outline-danger">Clear</button>
+            </div>
+        </div>
+
+        <div class="col m-3 ">
+            <div class=" rounded ">
+                <h5 class="text-black-200 mt-4 mb-3 ms-2">table</h5>
+                <table class="table table-light table-striped">
+                    <thead>
+                    <tr>
+                        <th  class="text-white" style="background-color: black" scope="col">Id</th>
+                        <th class="text-white" style="background-color: black" scope="col">Description</th>
+                        <th class="text-white" style="background-color: black" scope="col">Unit price</th>
+                        <th class="text-white" style="background-color: black" scope="col">Qty</th>
+                        <th class="text-white" style="background-color: black" scope="col">Total</th>
+                        <!-- <th style="background-color: #da9aef" scope="col">Action</th>-->
+                    </tr>
+                    </thead>
+                    <tbody id="OrderTbl">
+
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="row mt-5 p-4 border border-black rounded" style="background-color: #5c636a">
+                <h5 class="text-bg-dark  mt-3 mb-2">Purchase Order</h5>
+                <div class="row">
+                    <!--                    <div class="mb-1 col">-->
+                    <!--                        <button class="btn btn-outline-warning mt-5 mb-5" type="submit">Cancel</button>-->
+                    <!--                    </div>-->
+
+                    <div class="mb-5 col text-black">
+                        <label for="totalPlaceOrder" class="form-label "> Total</label>
+                        <input type="number"
+                               class="form-control bg-white border-warning text-black focus-ring-warning focus-ring mb-4 rounded"
+                               id="totalPlaceOrder" readonly>
+                    </div>
+                </div>
+
+
+
+                <div class="mb-1 col">
+                    <label for="discountPlaceOrder" class="form-label text-white">Discount</label>
+                    <input type="number"
+                           class="form-control bg-white border-white text-black focus-ring-warning focus-ring "
+                           id="discountPlaceOrder">
+                </div>
+
+                <div class="mb-1 col">
+                    <label for="subTotalPlaceOrder" class="form-label text-white">Sub Total</label>
+                    <input type="number"
+                           class="form-control bg-white border-white text-black focus-ring-warning focus-ring "
+                           id="subTotalPlaceOrder" readonly>
+                </div>
+
+            </div>
+            <div class="row ms-1">
+                <button class="btn btn-outline-success mt-5 mb-5" id="btnPurchaseFinalOrder" type="submit" style="background-color: #664d03">Purchase</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+    document.getElementById("customer").style.display="block";
+    document.getElementById("store").style.display="none";
+    document.getElementById("order").style.display="none";
+    document.getElementById("placeOrder").style.display="none";
+
+
+    document.getElementById("Mcustomer").addEventListener("click", function() {
+        document.getElementById("customer").style.display = "block";
+        document.getElementById("store").style.display="none";
+        document.getElementById("order").style.display = "none";
+        document.getElementById("placeOrder").style.display = "none";
+    });
+
+    document.getElementById("MStore").addEventListener("click", function(){
+        document.getElementById("customer").style.display="none";
+        document.getElementById("store").style.display="block";
+        document.getElementById("order").style.display="none";
+        document.getElementById("placeOrder").style.display="none";
+    });
+    document.getElementById("MOrder").addEventListener("click", function(){
+        document.getElementById("customer").style.display="none";
+        document.getElementById("store").style.display="none";
+        document.getElementById("order").style.display="block";
+        document.getElementById("placeOrder").style.display="none";
+
+    });
+    document.getElementById("MPlaceOrder").addEventListener("click", function(){
+        document.getElementById("customer").style.display="none";
+        document.getElementById("store").style.display="none";
+        document.getElementById("order").style.display="none";
+        document.getElementById("placeOrder").style.display="block";
+    });
+
+</script>
+<!--<script>
+    document.getElementById("btnCustomer").addEventListener("click", function () {
+
+        //get typed values of input fields
+        let id = document.getElementById("inputid").value;
+        let name = document.getElementById("inputName").value;
+        let address = document.getElementById("inputAddress").value;
+        let salary = document.getElementById("inputSalary").value;
+
+        //let's print it
+        console.log(id,name,address,salary);
+
+        //catch the table body
+        let tBody=document.getElementById("tblCustomer");
+
+        // let's see how we should insert a table row using html format
+        //<tr>
+        // <td>id</td>
+        // <td>name</td>
+        // <td>address</td>
+        // <td>salary</td>
+        // </tr>
+
+        //ok then, let's create the above row
+        let tr= document.createElement("tr");
+
+        //let's create another four columns
+        let col1= document.createElement("td");
+        let col2= document.createElement("td");
+        let col3= document.createElement("td");
+        let col4= document.createElement("td");
+
+        //set input fields values to the above created columns
+        col1.textContent=id;
+        col2.textContent=name;
+        col3.textContent=address;
+        col4.textContent=salary;
+
+        //set 4 columns to the previously created row
+        tr.appendChild(col1);
+        tr.appendChild(col2);
+        tr.appendChild(col3);
+        tr.appendChild(col4);
+
+        //set the row to the table body
+        tBody.appendChild(tr);
+
+        //Work done;
+    });
+</script>-->
+
+<!--<script>
+    let customerArray=[];
+    $("#btnCustomer").click(function (){
+
+
+        //get typed values of input fields
+        let cusid = $("#inputid").val();
+        let cusname = $("#inputName").val();
+        let cusaddress = $("#inputAddress").val();
+        let cussalary = $("#inputSalary").val();
+
+
+        let CustomerObject={
+            id :cusid ,
+            name :cusname,
+            address:cusaddress,
+            salary: cussalary
+        }
+        //let's print it
+      /*  console.log(id,name,address,salary);*/
+
+        //catch the table body
+       let tBody= $("#tblCustomer");
+    /*   let tr = $('<tr> <td>'+cusid+'</td> <td>'+cusname+'</td> <td>'+cusaddress+'</td> <td>'+cussalary+'</td> </tr>');*/
+
+      /* customerArray.push(CustomerObject);*/
+        if (!checkExistCustomer(CustomerObject.id)) {
+            customerArray.push(CustomerObject);
+        } else {
+            alert("Same ID !");
+        }
+
+       getAllCustomers();
+
+        // let's see how we should insert a table row using html format
+        //<tr>
+        // <td>id</td>
+        // <td>name</td>
+        // <td>address</td>
+        // <td>salary</td>
+        // </tr>
+
+        //ok then, let's create the above row
+        /*let tr= document.createElement("tr");
+
+        //let's create another four columns
+        let col1= document.createElement("td");
+        let col2= document.createElement("td");
+        let col3= document.createElement("td");
+        let col4= document.createElement("td");
+
+        //set input fields values to the above created columns
+        col1.textContent=id;
+        col2.textContent=name;
+        col3.textContent=address;
+        col4.textContent=salary;
+
+        //set 4 columns to the previously created row
+        tr.appendChild(col1);
+        tr.appendChild(col2);
+        tr.appendChild(col3);
+        tr.appendChild(col4);*/
+
+        //set the row to the table body
+        tBody.append(tr);
+
+        //Work done;
+        //done
+    });
+
+    //get data from raw
+  $("#tblCustomer").on('click','tr',function (){
+      let cusid =$(this).find('td:eq(0)').text();
+      let cusname =$(this).find('td:eq(1)').text();
+      let  cusaddress =$(this).find('td:eq(2)').text();
+      let cussalary =$(this).find('td:eq(3)').text();
+
+      //set values to textfield
+      $("#inputid").val(cusid);
+      $("#inputName").val(cusname);
+      $("#inputAddress").val(cusaddress);
+      $("#inputSalary").val(cussalary);
+
+  });
+
+$("#btnCustomerDelete").click(function (){
+    let selectedID =$("#inputid").val();
+    for(let i =0;i<customerArray.length;i++){
+        if (selectedID===customerArray[i].id){
+            customerArray.splice(i,1);
+            break;
+
+        }
+    }
+    getAllCustomers();
+    clearAll();
+})
+
+    /*update*/
+    $('#btnUpdateCustomer').click(function () {
+        // Get data
+
+        let cusid = $("#inputid").val();
+        let cusname = $("#inputName").val();
+        let cusaddress = $("#inputAddress").val();
+        let cussalary = $("#inputSalary").val();
+
+        // Set new data to existing object (using id)
+        for (let i = 0; i < customerArray.length; i++) {
+            if (cusid === customerArray[i].id) {
+                // Confirm update
+                let confirmUpdate = confirm("Do you want to update?");
+
+                if (confirmUpdate) {
+                    // Update the object in the array
+                    customerArray[i].name = cusname;
+                    customerArray[i].address = cusaddress;
+                    customerArray[i].salary =cussalary;
+
+                    // Exit the loop
+                    break;
+                }
+            }
+        }
+
+        // Update table
+        getAllCustomers();
+    });
+
+    // check customer is exists
+    function checkExistCustomer(cusid) {
+        for (let i = 0; i < customerArray.length; i++) {
+            if (cusid === customerArray[i].id) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //tab
+$("#inputid,#inputName,#inputAddress,#inputSalary").keydown(function (e){
+    if (e.key==="Tab"){
+        e.preventDefault();
+    }
+    });
+
+    //enter key
+    $("#inputid").keydown(function (e){
+        if(e.key=="Enter"){
+            $('#inputName').focus();
+        }
+    });
+
+    $("#inputName").keydown(function (e){
+        if(e.key=="Enter"){
+            $('#inputAddress').focus();
+        }
+    });
+    $("#inputAddress").keydown(function (e){
+        if(e.key=="Enter"){
+            $('#inputSalary').focus();
+        }
+    });
+
+    //validation for customer
+    const CusIdRegex = /^(C00-)[0-9]{3}$/;
+    const CusNameRegex = /^[A-Za-z ]{5,}$/;
+    const CusAddressRegex = /^[A-Za-z0-9 ]{5,}$/;
+    const CusContactRegex = /^[0-9]{10,}$/;
+
+    //add validations set text fields
+    let cusValidateArray = new Array();
+    cusValidateArray.push({field: $("#inputid"), regEx: CusIdRegex});
+    cusValidateArray.push({field: $("#inputName"), regEx: CusNameRegex});
+    cusValidateArray.push({field: $("#inputAddress"), regEx: CusAddressRegex});
+    cusValidateArray.push({field: $("#inputSalary"), regEx: CusContactRegex});
+
+    function checkValidations(object) {
+        if (object.regEx.test(object.field.val())) {
+            setBorder(true, object)
+            return true;
+        }
+        setBorder(false, object)
+        return false;
+    }
+
+
+    function setBorder(bol, ob) {
+        if (!bol) {
+            if (ob.field.val().length >= 1) {
+                ob.field.css("border", "2px solid red");
+            } else {
+                ob.field.css("border", "1px solid #ced4da");
+            }
+        } else {
+            if (ob.field.val().length >= 1) {
+                ob.field.css("border", "2px solid green");
+            } else {
+                ob.field.css("border", "1px solid #ced4da");
+            }
+        }
+
+    }
+
+
+    function checkAll() {
+        for (let i = 0; i < cusValidateArray.length; i++) {
+            if (!checkValidations(cusValidateArray[i])) return false;
+        }
+        return true;
+    }
+
+
+
+   /*....................................*/
+
+    function getAllCustomers() {
+        let tBody = $("#tblCustomer");
+
+        // Clear table
+        tBody.empty();
+
+        // Load all values
+        for (let i = 0; i < customerArray.length; i++) {
+            let tr = $(`<tr>
+                        <td>${customerArray[i].id}</td>
+                        <td>${customerArray[i].name}</td>
+                        <td>${customerArray[i].address}</td>
+                        <td>${customerArray[i].salary}</td>
+                   </tr>`);
+            tBody.append(tr);
+        }
+    }
+    function clearAll(){
+        $("#inputid").val("");
+        $("#inputName").val("");
+        $("#inputAddress").val("");
+        $("#inputSalary").val("");
+    }
+
+
+</script>
+
+<script>
+    let itemArray=[];
+
+
+    $("#btnItem").click(function (){
+
+
+        //get typed values of input fields
+        let itemsid = $("#inputItemid").val();
+        let itemname = $("#inputItemName").val();
+        let itemprice = $("#inputItemPrice").val();
+        let itemquantity = $("#inputItemQuantity").val();
+
+
+        let ItemObject={
+            issid :itemsid,
+            iname :itemname ,
+            iprice:itemprice,
+            iquantity: itemquantity
+        }
+
+        let tBody= $("#tblItem");
+       /* let tr = $('<tr> <td>'+itemsid+'</td> <td>'+itemname+'</td> <td>'+itemprice+'</td> <td>'+itemquantity+'</td> </tr>');
+
+        itemArray.push({isid:itemsid,iname:itemname,iprice:itemprice,iquantity:itemquantity });*/
+    // itemArray.push(ItemObject);
+
+        if (!checkExistItem(ItemObject.issid)) {
+            itemArray.push(ItemObject);
+        } else {
+            alert("Same ID !");
+        }
+
+      getAllItem();
+
+        tBody.append(tr);
+
+    });
+
+    $("#tblItem").on('click','tr',function (){
+        let itemsid  =$(this).find('td:eq(0)').text();
+        let itemname =$(this).find('td:eq(1)').text();
+        let  itemprice =$(this).find('td:eq(2)').text();
+        let itemquantity =$(this).find('td:eq(3)').text();
+
+        //set values to textfield
+        $("#inputItemid").val(itemsid );
+        $("#inputItemName").val(itemname);
+        $("#inputItemPrice").val(itemprice);
+        $("#inputItemQuantity").val(itemquantity);
+
+    });
+
+    $("#btnItemDelete").click(function (){
+        let selectedID =$("#inputItemid").val();
+        for(let i =0;i<itemArray.length;i++){
+            if (selectedID===itemArray[i].issid){
+                itemArray.splice(i,1);
+                break;
+
+            }
+        }
+        getAllItem();
+        clearAll();
+    })
+
+    /*update*/
+    $('#btnUpdateItem').click(function () {
+        // Get data
+
+        let itemsid = $("#inputItemid").val();
+        let itemname = $("#inputItemName").val();
+        let itemprice = $("#inputItemPrice").val();
+        let itemquantity = $("#inputItemQuantity").val();
+
+        // Set new data to existing object (using id)
+        for (let i = 0; i < itemArray.length; i++) {
+            if (itemsid === itemArray[i].issid) {
+                // Confirm update
+                let confirmUpdate = confirm("Do you want to update?");
+
+                if (confirmUpdate) {
+                    // Update the object in the array
+                    itemArray[i].iname = itemname;
+                    itemArray[i].iprice = itemprice;
+                    itemArray[i].iquantity =itemquantity;
+
+                    // Exit the loop
+                    break;
+                }
+            }
+        }
+
+        // Update table
+        getAllItem();
+    });
+
+    function checkExistItem(itemsid) {
+        for (let i = 0; i < itemArray.length; i++) {
+            if (itemsid === itemArray[i].issid) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //tab
+    $("#inputItemid,#inputItemName,#inputItemPrice,#inputItemQuantity").keydown(function (e){
+        if (e.key==="Tab"){
+            e.preventDefault();
+        }
+    });
+
+    //enter key
+    $("#inputItemid").keydown(function (e){
+        if(e.key=="Enter"){
+            $('#inputItemName').focus();
+        }
+    });
+
+    $("#inputItemName").keydown(function (e){
+        if(e.key=="Enter"){
+            $('#inputItemPrice').focus();
+        }
+    });
+    $("#inputItemPrice").keydown(function (e){
+        if(e.key=="Enter"){
+            $('#inputItemQuantity').focus();
+        }
+    });
+
+    function getAllItem() {
+        let tBody = $("#tblItem");
+
+        // Clear table
+        tBody.empty();
+
+        // Load all values
+        for (let i = 0; i < itemArray.length; i++) {
+            let tr = $(`<tr>
+                        <td>${itemArray[i].issid}</td>
+                        <td>${itemArray[i].iname}</td>
+                        <td>${itemArray[i].iprice}</td>
+                        <td>${itemArray[i].iquantity}</td>
+                   </tr>`);
+            tBody.append(tr);
+        }
+    }
+    function clearAll(){
+        $("#inputItemid").val("");
+        $("#inputItemName").val("");
+        $("#inputItemPrice").val("");
+        $("#inputItemQuantity").val("");
+    }
+
+</script>-->
+<script src="controller/AllOrders.js"></script>
+<script src="controller/item.js"></script>
+<script src="controller/customer.js"></script>
+<!--<script src="controller/order.js"></script>
+
+
+<script src="controller/navigation.js"></script>
+
+<script src="controller/validations/commonFunction.js"></script>
+<script src="controller/validations/CustomerValidation.js"></script>
+<script src="controller/validations/ItemValidation.js"></script>
+<script src="controller/validations/OrdersValidation.js"></script>
+
+<script src="db/DB.js"></script>
+
+<script src="model/item.js"></script>
+<script src="model/OrderDetails.js"></script>
+<script src="model/Orders.js"></script>
+<script src="model/Customer.js"></script>-->
+
+
+</body>
+</html>

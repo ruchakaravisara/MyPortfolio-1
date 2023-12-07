@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.js"></script>
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg "data-bs-theme="dark"style="background-color: black;" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Manage System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="ManageCustomer.html">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="ManageStore.html">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="ManageOrder.html">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="PlaceOrder.html">Place Order</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+<h2 style="background-color: #dfc2c4" >PlaceOrder</h2>
+
+<div class="row mt-3 border border-dark rounded p-3">
+    <form action="">
+        <div class="row border border-dark rounded p-2">
+
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">OrderID</span>
+                    <input class="form-control" type="text" placeholder="O001" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">CustomerID</span>
+                    <input class="form-control" type="text" placeholder="C001" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">ItemID</span>
+                    <input class="form-control" type="text" placeholder="I001" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Quantity</span>
+                    <input class="form-control" type="text" placeholder="10" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-5 mb-2 p-3 border border-dark rounded">
+
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Date</span>
+                    <input class="form-control" type="text" placeholder="2023-12-12" aria-label="Disabled input example" disabled>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Total</span>
+                    <input class="form-control" type="text" placeholder="20000" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Unit Price</span>
+                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Item Name</span>
+                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-10"></div>
+            <div class="col-2">
+                <button type="button" class="btn btn-primary">Add to Cart</button>
+                <button type="button" class="btn btn-danger">Clear</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+<div class="row mt-3 border border-dark rounded p-3">
+    <div class="row">
+        <table class="table table-striped-columns">
+            <thead>
+            <tr>
+                <th scope="col">Item ID</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">ItemName</th>
+                <th scope="col">Unit Price</th>
+                <th scope="col">Total</th>
+
+            </tr>
+            </thead>
+            <tbody>
+
+            <tr>
+                <th scope="col">I001</th>
+                <th scope="col">1</th>
+                <th scope="col">sugar</th>
+                <th scope="col">300</th>
+                <th scope="col">300</th>
+
+            </tr>
+            <tr>
+                <th scope="col">I001</th>
+                <th scope="col">1</th>
+                <th scope="col">sugar</th>
+                <th scope="col">300</th>
+                <th scope="col">300</th>
+
+            </tr>
+
+
+
+            </tbody>
+        </table>
+    </div>
+    <form action="">
+        <div class="row mt-3">
+
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Total-Rs:</span>
+                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Discount-Rs:</span>
+                    <input class="form-control" type="number" placeholder="" aria-label="Disabled input example">
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="input-group">
+                    <span class="input-group-text">Sub Tot-Rs:</span>
+                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="row mt-3">
+        <div class="col-10"></div>
+        <div class="col-2">
+            <button type="button" class="btn btn-success">Purchase</button>
+            <button type="button" class="btn btn-danger">Cancel</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

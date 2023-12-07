@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Que</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <style>
+        section{
+            width: 1000px;
+            height: 320px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 0;
+            bottom: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        section>div{
+            height: 100px;
+            flex-grow: 1;
+            border :2px solid black;
+
+        }
+
+
+        section>div:first-child{
+            align-self:start;
+            /*background-color:red;*/
+        }
+        section>div:last-child{
+            align-self: end;
+          /*  background-color:orange;*/
+
+        }
+       /* section>div:nth-child(2){
+            background-color:black;
+        }
+        section>div:nth-child(3){
+            background-color:green;
+        }
+        section>div:nth-child(4){
+            background-color:#20c997;
+        }
+        section>div:nth-child(5){
+            background-color:#5c636a;
+        }*/
+    </style>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+<body>
+
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</section>
+
+<script>
+    let colors = ["red","yellow","green","blue","deeppink","orange"];
+    let divArray = document.querySelector("section").children;
+
+
+   setInterval(function (){
+       for(let i =0 ; i<divArray.length ;i++){
+           divArray[i].style.background = colors[i];
+       }
+
+       let a = colors.pop();
+       colors.unshift(a);
+
+   },500)
+
+
+
+</script>
+
+</body>
+</html>

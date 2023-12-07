@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <script src="assets/js/bootstrap.js"></script>
+
+
+</head>
+<header>
+  <!--navigation-->
+  <nav class="navbar navbar-expand-lg "data-bs-theme="dark"style="background-color: black;" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Manage System</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="ManageCustomer.html">Customer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="ManageStore.html">Items</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="ManageOrder.html">Orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="PlaceOrder.html">Place Order</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+</header>
+<body>
+
+<h2 style="background-color: #ffc107" >ManageCustomer</h2>
+
+
+
+<div class="container text-center">
+  <div class="row"  >
+
+    <div class="col" >
+      <h3 style="color: black">Add Customer</h3>
+      <form>
+
+        <div class="row mb-3" >
+
+          <label for="inputid" class="col-sm-2 col-form-label">CID</label>
+          <div class="col-sm-10">
+            <input type="id" class="form-control" id="inputid">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-10">
+            <input type="name" class="form-control" id="inputName">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputAddress" class="col-sm-2 col-form-label">contact</label>
+          <div class="col-sm-10">
+            <input type="contact" class="form-control" id="inputAddress">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="inputSalary" class="col-sm-2 col-form-label">address</label>
+          <div class="col-sm-10">
+            <input type="address" class="form-control" id="inputSalary">
+          </div>
+        </div>
+
+
+        <div class="col-6 ms-5">
+          <button type="button" class="btn btn-success mt-2 mb-3 ms-4" >Save</button>
+          <button type="button" class="btn btn-info me-1 mt-2 mb-3 ms-4">Update</button>
+
+        </div>
+
+      </form>
+    </div>
+    <div class="col">
+      <h3 style="color: black">Customer Details</h3>
+      <table class="table table-bordered border-primary">
+        <thead >
+        <tr>
+          <th scope="col" style="background-color: #ffc107">#</th>
+          <th scope="col">Id</th>
+          <th scope="col">Name</th>
+          <th scope="col">Contact</th>
+          <th scope="col">Address</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>c001</td>
+          <td>ruchaka</td>
+          <td>07712121212</td>
+          <td>galle</td>
+        </tr>
+        <tr>
+          <th scope="row">1</th>
+          <td>c001</td>
+          <td>ruchaka</td>
+          <td>07712121212</td>
+          <td>galle</td>
+        </tr>
+
+        <tr>
+          <th scope="row">1</th>
+          <td>c001</td>
+          <td>ruchaka</td>
+          <td>07712121212</td>
+          <td>galle</td>
+        </tr>
+        <tr>
+          <th scope="row">1</th>
+          <td>c001</td>
+          <td>ruchaka</td>
+          <td>07712121212</td>
+          <td>galle</td>
+        </tr>
+
+        </tbody>
+      </table>
+      <div class="col-6 ms-5">
+        <button type="button" class="btn btn-danger mt-2 mb-3 ms-4" >Delete</button>
+        <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4">Edit</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

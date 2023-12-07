@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/bootstrap.esm.js"></script>
+
+
+</head>
+<header>
+    <!--navigation-->
+    <nav class="navbar navbar-expand-lg "data-bs-theme="dark"style="background-color: black;" >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Manage System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="/Assignment/CssFrameworks/pos/ManageCustomer.html" id="Mcustomer">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="/Assignment/CssFrameworks/pos/ManageStore.html" id="MStore">Items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="/Assignment/CssFrameworks/pos/ManageOrder.html" id="MOrder">Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="/Assignment/CssFrameworks/pos/PlaceOrder.html" id="MPlaceOrder">Place Order</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+</header>
+<body>
+
+
+
+
+<main class="container" id="customer">
+    <h2 style="background-color: #ffc107" >ManageCustomer</h2>
+    <section class="container text-center">
+
+        <div class="row"  >
+
+            <div class="col" >
+                <h3 style="color: black">Add Customer</h3>
+                <form>
+
+                    <div class="row mb-3" >
+
+                        <label for="inputid" class="col-sm-2 col-form-label">CID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputid">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputAddress" class="col-sm-2 col-form-label">contact</label>
+                        <div class="col-sm-10">
+                            <input type="contact" class="form-control" id="inputAddress">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputSalary" class="col-sm-2 col-form-label">address</label>
+                        <div class="col-sm-10">
+                            <input type="address" class="form-control" id="inputSalary">
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 ms-5">
+                        <button type="button" class="btn btn-success mt-2 mb-3 ms-4" >Save</button>
+                        <button type="button" class="btn btn-info me-1 mt-2 mb-3 ms-4">Update</button>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="col">
+                <h3 style="color: black">Customer Details</h3>
+                <table class="table table-bordered border-primary">
+                    <thead >
+                    <tr>
+                        <th scope="col" style="background-color: #ffc107">#</th>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Contact</th>
+                        <th scope="col">Address</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>c001</td>
+                        <td>ruchaka</td>
+                        <td>07712121212</td>
+                        <td>galle</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>c001</td>
+                        <td>ruchaka</td>
+                        <td>07712121212</td>
+                        <td>galle</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>c001</td>
+                        <td>ruchaka</td>
+                        <td>07712121212</td>
+                        <td>galle</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>c001</td>
+                        <td>ruchaka</td>
+                        <td>07712121212</td>
+                        <td>galle</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+                <div class="col-6 ms-5">
+                    <button type="button" class="btn btn-danger mt-2 mb-3 ms-4" >Delete</button>
+                    <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4">Edit</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--items-->
+<main class="container" id="store">
+    <h2 style="background-color: #20c997" >ManageStore</h2>
+    <section class="container text-center">
+        <div class="row"  >
+
+            <div class="col" >
+                <h3 style="color: black">Add Item</h3>
+                <form>
+
+                    <div class="row mb-3" >
+
+                        <label for="inputItemid" class="col-sm-2 col-form-label">SID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputItemid">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputItemName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputItemName">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputItemPrice" class="col-sm-2 col-form-label">Price</label>
+                        <div class="col-sm-10">
+                            <input type="price" class="form-control" id="inputItemPrice">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputItemQuantity" class="col-sm-2 col-form-label">Quantity</label>
+                        <div class="col-sm-10">
+                            <input type="quantity" class="form-control" id="inputItemQuantity">
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 ms-5">
+                        <button type="button" class="btn btn-success mt-2 mb-3 ms-4" >Save</button>
+                        <button type="button" class="btn btn-info me-1 mt-2 mb-3 ms-4">Update</button>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="col">
+                <h3 style="color: black">Item Details</h3>
+                <table class="table table-bordered border-primary">
+                    <thead >
+                    <tr>
+                        <th scope="col" style="background-color: #ffc107">#</th>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>I001</td>
+                        <td>suger</td>
+                        <td>250</td>
+                        <td>1kg</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>I001</td>
+                        <td>suger</td>
+                        <td>250</td>
+                        <td>1kg</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>I001</td>
+                        <td>suger</td>
+                        <td>250</td>
+                        <td>1kg</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>I001</td>
+                        <td>suger</td>
+                        <td>250</td>
+                        <td>1kg</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+                <div class="col-6 ms-5">
+                    <button type="button" class="btn btn-danger mt-2 mb-3 ms-4" >Delete</button>
+                    <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4">Edit</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<main class="container" id="order">
+    <h2 style="background-color: #25cff2" >ManageOrder</h2>
+
+
+
+    <section class="container text-center">
+        <div class="row"  >
+
+            <div class="col" >
+                <h3 style="color: black">Add Order</h3>
+                <form>
+
+                    <div class="row mb-3" >
+
+                        <label for="inputOrderid" class="col-sm-2 col-form-label">Order ID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputOrderid">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputtid" class="col-sm-2 col-form-label">Customer ID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputtid">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputitemmID" class="col-sm-2 col-form-label">Item ID</label>
+                        <div class="col-sm-10">
+                            <input type="id" class="form-control" id="inputitemmID">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputQuantity" class="col-sm-2 col-form-label">quantity</label>
+                        <div class="col-sm-10">
+                            <input type="quantity" class="form-control" id="inputQuantity">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputdate" class="col-sm-2 col-form-label">date</label>
+                        <div class="col-sm-10">
+                            <input type="date" class="form-control" id="inputdate">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="total" class="col-sm-2 col-form-label">total</label>
+                        <div class="col-sm-10">
+                            <input type="total" class="form-control" id="total">
+                        </div>
+                    </div>
+
+
+                    <div class="col-6 ms-5">
+                        <button type="button" class="btn btn-success mt-2 mb-3 ms-4" >Save</button>
+                        <button type="button" class="btn btn-info me-1 mt-2 mb-3 ms-4">Update</button>
+
+                    </div>
+
+                </form>
+            </div>
+            <div class="col">
+                <h3 style="color: black">Order Details</h3>
+                <table class="table table-bordered border-primary">
+                    <thead >
+                    <tr>
+                        <th scope="col" style="background-color: #ffc107">#</th>
+                        <th scope="col">OId</th>
+                        <th scope="col">CID</th>
+                        <th scope="col">IID</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Total</th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>O001</td>
+                        <td>C001</td>
+                        <td>I001</td>
+                        <td>1</td>
+                        <td>2023/12/12</td>
+                        <td>500</td>
+
+                    </tr>
+
+                    </tbody>
+                </table>
+                <div class="col-6 ms-5">
+                    <button type="button" class="btn btn-danger mt-2 mb-3 ms-4" >Delete</button>
+                    <button type="button" class="btn btn-warning me-1 mt-2 mb-3 ms-4">Edit</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<main class="container" id="placeOrder">
+    <h2 style="background-color: #dfc2c4" >PlaceOrder</h2>
+
+    <div class="row mt-3 border border-dark rounded p-3">
+        <form action="">
+            <div class="row border border-dark rounded p-2">
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">OrderID</span>
+                        <input class="form-control" type="text" placeholder="O001" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">CustomerID</span>
+                        <input class="form-control" type="text" placeholder="C001" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">ItemID</span>
+                        <input class="form-control" type="text" placeholder="I001" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Quantity</span>
+                        <input class="form-control" type="text" placeholder="10" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mt-5 mb-2 p-3 border border-dark rounded">
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Date</span>
+                        <input class="form-control" type="text" placeholder="2023-12-12" aria-label="Disabled input example" disabled>
+
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Total</span>
+                        <input class="form-control" type="text" placeholder="20000" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Unit Price</span>
+                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Item Name</span>
+                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-10"></div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-primary">Add to Cart</button>
+                    <button type="button" class="btn btn-danger">Clear</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <section class="row mt-3 border border-dark rounded p-3">
+        <div class="row">
+            <table class="table table-striped-columns">
+                <thead>
+                <tr>
+                    <th scope="col">Item ID</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">ItemName</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Total</th>
+
+                </tr>
+                </thead>
+                <tbody>
+
+                <tr>
+                    <th scope="col">I001</th>
+                    <th scope="col">1</th>
+                    <th scope="col">sugar</th>
+                    <th scope="col">300</th>
+                    <th scope="col">300</th>
+
+                </tr>
+                <tr>
+                    <th scope="col">I001</th>
+                    <th scope="col">1</th>
+                    <th scope="col">sugar</th>
+                    <th scope="col">300</th>
+                    <th scope="col">300</th>
+
+                </tr>
+
+
+
+                </tbody>
+            </table>
+        </div>
+        <form action="">
+            <div class="row mt-3">
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Total-Rs:</span>
+                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Discount-Rs:</span>
+                        <input class="form-control" type="number" placeholder="" aria-label="Disabled input example">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="input-group">
+                        <span class="input-group-text">Sub Tot-Rs:</span>
+                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="row mt-3">
+            <div class="col-10"></div>
+            <div class="col-2">
+                <button type="button" class="btn btn-success">Purchase</button>
+                <button type="button" class="btn btn-danger">Cancel</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script>
+
+    document.getElementById("customer");
+    document.getElementById("store").style.display="none";
+    document.getElementById("order").style.display="none";
+    document.getElementById("placeOrder").style.display="none";
+    document.getElementById("Mcustomer").addEventListener("click", function(){
+
+        document.getElementById("customer").style.display="block";
+        // document.getElementById("item").style.display="none";
+        document.getElementById("order").style.display="none";
+        document.getElementById("placeOrder").style.display="none";
+    });
+    document.getElementById("MStore").addEventListener("click", function(){
+        document.getElementById("customer").style.display="none";
+        document.getElementById("order").style.display="none";
+        document.getElementById("placeOrder").style.display="none";
+    });
+    document.getElementById("MOrder").addEventListener("click", function(){
+        document.getElementById("customer").style.display="none";
+        document.getElementById("item").style.display="none";
+        document.getElementById("placeOrder").style.display="none";
+    });
+    document.getElementById("MPlaceOrder").addEventListener("click", function(){
+        document.getElementById("customers").style.display="none";
+        document.getElementById("item").style.display="none";
+        document.getElementById("order").style.display="none";
+    });
+
+</script>
+
+
+</body>
+</html>
