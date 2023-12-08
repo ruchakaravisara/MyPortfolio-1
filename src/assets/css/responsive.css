@@ -1,0 +1,226 @@
+@media all and (max-width:1024px) and (min-width:608px){
+#home{
+    margin-top: 30px;
+    background : url("../img/homee.jpg")  no-repeat center fixed;
+    height: 550px;
+    width: 100%;
+
+}
+    #hello{
+        font-size: 34px ;
+    }
+    #imruchaka{
+        font-size: 58px;
+    }
+    #ruchaka{
+        font-size: 120px;
+        position: relative;
+        left: 550px;
+        top: -130px;
+
+
+
+
+
+    }
+    span{
+        font-size:40px ;
+        position: relative;
+        left: 100px;
+        top: -200px;
+    }
+
+
+    #home div a  {
+        display: inline-flex;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid #00D0FE;
+        border-radius: 50%;
+        font-size: 30px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        color: #00D0FE;
+        margin-left: 40px;
+        left: 60px;
+        position: relative;
+        top: -160px;
+
+    }
+    /*//////////////////////about////////////////////////*/
+
+    #About{
+        width: 100%;
+
+    }
+    #About h1{
+        font-size: 90px;
+        position: relative;
+        left: 300px;
+        width: 700px;
+
+    }
+    #About h3{
+        font-size: 28px;
+        position: relative;
+        left: 340px;
+        width: 700px;
+        top: -130px;
+
+    }
+    #About div img{
+        width: 30%;
+        position: relative;
+        left: 70px;
+        top: -50px;
+    }
+    #im ul{
+        position: relative;
+        left: 490px;
+        top: -400px;
+    }
+    #im p {
+        position: relative;
+        left: 460px;
+        top: -340px;
+    }
+    #cvv{
+        position: relative;
+        top: -190px;
+        left: 550px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+
+
+    #edu{
+        position: relative;
+        top: -550px;
+        right: 400px;
+    }
+    #ed {
+        position: relative;
+        height: 300px;
+        width: 700px;
+        left: 200px;
+        top: -140px;
+    }
+    /*////////////////////////skills////////////////*/
+    #Skill{
+        width: 100%;
+    }
+    #Skill h1{
+        font-size: 90px;
+        position: relative;
+        top: -170px;
+        left: 400px;
+        width: 700px;
+
+    }
+    #Skill h3{
+        font-size: 28px;
+        position: relative;
+        left:400px;
+        width: 700px;
+        top: -300px;
+
+    }
+   /*////////////////////////service/////////////////////////*/
+
+    #servic{
+
+        width: 100%;
+
+
+    }
+    #servic h1{
+        font-size: 90px;
+        position: relative;
+        left: 380px;
+        top: 250px;
+
+
+    }
+    #servic h3{
+        font-size: 28px;
+        position: relative;
+        left:410px;
+        width: 700px;
+        top: 120px;
+
+    }
+    #servic div{
+        display: inline-block;
+        position: relative;
+        top: 120px;
+        right: 90px;
+    }
+    #servic div div{
+       margin-bottom: 20px;
+    }
+    #servic div div img{
+        width: 20%;
+        position: relative;
+        left: 120px;
+        top: 50px;
+    }
+    #servic div div h4{
+
+        position: relative;
+        top: 60px;
+
+    }
+    #servic div div h6{
+
+        position: relative;
+        top: 100px;
+
+    }
+/*///////////////////////projects////////////////////////*/
+    #project{
+        position: relative;
+        top: 180px;
+    }
+    #project h1{
+        font-size: 90px;
+        opacity: 10%;
+        position: relative;
+        left: 380px;
+        width: 700px;
+
+    }
+    #project h3{
+        font-size: 28px;
+        position: relative;
+        left:410px;
+        width: 700px;
+        top: -120px;
+
+    }
+    #btnViewMore{
+        position: relative;
+        left: 280px;
+    }
+    /*/////////////////////contact///////////////////*/
+    #section-wrapper{
+        width: 100%;
+        position: relative;
+        top: 10px;
+
+
+
+    }
+    .form-wrap{
+        height: 460px;
+    }
+    .info-wrap{
+        height: 460px;
+    }
+    /*/////////////footer////////////////////*/
+    footer{
+        position: relative;
+        top: 690px;
+    }
+
+}
