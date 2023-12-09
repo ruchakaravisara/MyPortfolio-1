@@ -25,7 +25,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
     background-color: black; /* or any color you prefer */
-    border-radius: 100%; /* Adjust the radius as needed */
+    border-radius: 10%; /* Adjust the radius as needed */
     border: 3px solid transparent; /* Fix for some browsers */
 }
 
@@ -137,7 +137,7 @@ span{
     justify-content: center;
     align-items: center;
     color: #00D0FE;
-    margin-left: 40px;
+    margin-left: 30px;
     left: 60px;
     position: relative;
     top: -250px;

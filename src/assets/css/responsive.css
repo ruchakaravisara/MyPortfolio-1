@@ -262,9 +262,6 @@
         left: 250px;
         top: -130px;
         width: 200px;
-        opacity: 10%;
-        font-weight: normal;
-
 
     }
     span{
@@ -280,7 +277,7 @@
     #home div a  {
         width: 35px;
         height: 35px;
-        margin-left: 25px;
+        margin-left: 31px;
         position: relative;
         top: -280px;
 
@@ -289,33 +286,19 @@
     #cv{
         height: 40px;
         width: 135px;
-        border-radius: 10%;
-        color: white;
-        font-size: 19px;
-        background-color: #1289CC;
-        border: none;
         position: relative;
-        top: -200px;
-        left: 600px;
-        font-family: 'Barlow Semi Condensed', sans-serif;
+        top: -260px;
+        left: 260px;
+
     }
-    #cv:hover{
-        background-color: black;
-    }
+
     #hire{
         height: 40px;
         width: 135px;
-        border-radius: 10%;
-        color: white;
         font-size: 19px;
-        background-color: #1289CC;
-        border: none;
         position: relative;
-        top: -200px;
-        left: 620px;
-        font-family: 'Barlow Semi Condensed', sans-serif;
+        top: -260px;
+        left:280px;
     }
-    #hire:hover{
-        background-color: black;
-    }
+
 }
