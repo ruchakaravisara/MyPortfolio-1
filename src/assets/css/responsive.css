@@ -1,4 +1,6 @@
-@media all and (max-width:1024px) and (min-width:608px){
+@media all and (max-width:1024px){
+
+
 #home{
     margin-top: 30px;
     background : url("../img/homee.jpg")  no-repeat center fixed;
@@ -17,6 +19,7 @@
         position: relative;
         left: 550px;
         top: -130px;
+        width: 200px;
 
 
 
@@ -59,14 +62,15 @@
         font-size: 90px;
         position: relative;
         left: 300px;
-        width: 700px;
+        width: 500px;
+
 
     }
     #About h3{
         font-size: 28px;
         position: relative;
         left: 340px;
-        width: 700px;
+        width: 500px;
         top: -130px;
 
     }
@@ -115,14 +119,14 @@
         position: relative;
         top: -170px;
         left: 400px;
-        width: 700px;
+        width: 500px;
 
     }
     #Skill h3{
         font-size: 28px;
         position: relative;
         left:400px;
-        width: 700px;
+        width: 500px;
         top: -300px;
 
     }
@@ -139,14 +143,14 @@
         position: relative;
         left: 380px;
         top: 250px;
-
+       width: 520px;
 
     }
     #servic h3{
         font-size: 28px;
         position: relative;
         left:410px;
-        width: 700px;
+        width:500px;
         top: 120px;
 
     }
@@ -155,9 +159,11 @@
         position: relative;
         top: 120px;
         right: 90px;
+
     }
     #servic div div{
        margin-bottom: 20px;
+
     }
     #servic div div img{
         width: 20%;
@@ -181,20 +187,21 @@
     #project{
         position: relative;
         top: 180px;
+
     }
     #project h1{
         font-size: 90px;
         opacity: 10%;
         position: relative;
         left: 380px;
-        width: 700px;
+        width: 400px;
 
     }
     #project h3{
         font-size: 28px;
         position: relative;
         left:410px;
-        width: 700px;
+        width: 500px;
         top: -120px;
 
     }
@@ -210,6 +217,7 @@
 
 
 
+
     }
     .form-wrap{
         height: 460px;
@@ -221,6 +229,93 @@
     footer{
         position: relative;
         top: 690px;
+
     }
 
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////*/
+@media all and (max-width:768px){
+    #home{
+        margin-top: 30px;
+        background : url("../img/homee.jpg")  no-repeat center  fixed;
+        height: 400px;
+        width: 100%;
+
+
+    }
+
+    #hello{
+        font-size: 30px ;
+        position: relative;
+        left: 100px;
+        top: 40px;
+    }
+    #imruchaka{
+        font-size: 40px;
+        position: relative;
+
+    }
+    #ruchaka{
+        font-size: 150px;
+        position: relative;
+        left: 250px;
+        top: -130px;
+        width: 200px;
+        opacity: 10%;
+        font-weight: normal;
+
+
+    }
+    span{
+        font-size:38px ;
+        color: #00D0FE;
+        font-family: 'League Spartan', sans-serif;
+        position: relative;
+        left: 100px;
+        top: -300px;
+    }
+
+
+    #home div a  {
+        width: 35px;
+        height: 35px;
+        margin-left: 25px;
+        position: relative;
+        top: -280px;
+
+    }
+
+    #cv{
+        height: 40px;
+        width: 135px;
+        border-radius: 10%;
+        color: white;
+        font-size: 19px;
+        background-color: #1289CC;
+        border: none;
+        position: relative;
+        top: -200px;
+        left: 600px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    #cv:hover{
+        background-color: black;
+    }
+    #hire{
+        height: 40px;
+        width: 135px;
+        border-radius: 10%;
+        color: white;
+        font-size: 19px;
+        background-color: #1289CC;
+        border: none;
+        position: relative;
+        top: -200px;
+        left: 620px;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+    }
+    #hire:hover{
+        background-color: black;
+    }
 }
