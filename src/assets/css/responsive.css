@@ -301,4 +301,75 @@
         left:280px;
     }
 
+    /*///////////////////////////////about//////////////////////*/
+    #About{
+        width: 100%;
+        height: 600px;
+    }
+    #About h1{
+        font-size: 70px;
+        position: relative;
+        left:260px;
+        width: 350px;
+
+    }
+    #About h3{
+        font-size: 20px;
+        position: relative;
+        left: 290px;
+        width: 350px;
+        top: -100px;
+    }
+    #About div img{
+        width: 30%;
+        position: relative;
+        left: 70px;
+        top: -30px;
+    }
+    #im ul{
+        position: relative;
+        left: 390px;
+        top: -300px;
+    }
+    #im ul li {
+        font-size: 14px;
+    }
+    #im {
+        height: 100px;
+        width: 300px;
+    }
+    #im p {
+
+        position: relative;
+        left: 370px;
+        top: -280px;
+        font-size: 14px;
+    }
+    #cvv{
+        height: 35px;
+        width: 120px;
+        font-size: 14px;
+        position: relative;
+        top: -100px;
+        left: 370px;
+    }
+    #edu{
+        opacity: 50%;
+        position: relative;
+        top: -395px;
+        right: 300px;
+        font-size: 20px;
+    }
+    #ed {
+        position: relative;
+        height: 300px;
+        width: 500px;
+        left: 150px;
+        top: -110px;
+
+    }
+    #ed p{
+        font-size: 14px;
+
+    }
 }
