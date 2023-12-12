@@ -235,28 +235,30 @@
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////*/
-@media all and (max-width:768px){
-    #home{
+@media all and (max-width:768px) {
+    #home {
         margin-top: 30px;
-        background : url("../img/homee.jpg")  no-repeat center  fixed;
+        background: url("../img/homee.jpg") no-repeat center fixed;
         height: 400px;
         width: 100%;
 
 
     }
 
-    #hello{
-        font-size: 30px ;
+    #hello {
+        font-size: 30px;
         position: relative;
         left: 100px;
         top: 40px;
     }
-    #imruchaka{
+
+    #imruchaka {
         font-size: 40px;
         position: relative;
 
     }
-    #ruchaka{
+
+    #ruchaka {
         font-size: 150px;
         position: relative;
         left: 250px;
@@ -264,8 +266,9 @@
         width: 200px;
 
     }
-    span{
-        font-size:38px ;
+
+    span {
+        font-size: 38px;
         color: #00D0FE;
         font-family: 'League Spartan', sans-serif;
         position: relative;
@@ -274,7 +277,7 @@
     }
 
 
-    #home div a  {
+    #home div a {
         width: 35px;
         height: 35px;
         margin-left: 31px;
@@ -283,7 +286,7 @@
 
     }
 
-    #cv{
+    #cv {
         height: 40px;
         width: 135px;
         position: relative;
@@ -292,52 +295,59 @@
 
     }
 
-    #hire{
+    #hire {
         height: 40px;
         width: 135px;
         font-size: 19px;
         position: relative;
         top: -260px;
-        left:280px;
+        left: 280px;
     }
 
     /*///////////////////////////////about//////////////////////*/
-    #About{
+    #About {
         width: 100%;
         height: 600px;
     }
-    #About h1{
+
+    #About h1 {
         font-size: 70px;
         position: relative;
-        left:260px;
+        left: 260px;
         width: 350px;
 
     }
-    #About h3{
+
+    #About h3 {
         font-size: 20px;
         position: relative;
         left: 290px;
         width: 350px;
         top: -100px;
     }
-    #About div img{
+
+    #About div img {
         width: 30%;
         position: relative;
         left: 70px;
         top: -30px;
     }
-    #im ul{
+
+    #im ul {
         position: relative;
         left: 390px;
         top: -300px;
     }
+
     #im ul li {
         font-size: 14px;
     }
+
     #im {
         height: 100px;
         width: 300px;
     }
+
     #im p {
 
         position: relative;
@@ -345,7 +355,8 @@
         top: -280px;
         font-size: 14px;
     }
-    #cvv{
+
+    #cvv {
         height: 35px;
         width: 120px;
         font-size: 14px;
@@ -353,13 +364,15 @@
         top: -100px;
         left: 370px;
     }
-    #edu{
+
+    #edu {
         opacity: 50%;
         position: relative;
         top: -395px;
         right: 300px;
         font-size: 20px;
     }
+
     #ed {
         position: relative;
         height: 300px;
@@ -368,8 +381,38 @@
         top: -110px;
 
     }
-    #ed p{
+
+    #ed p {
         font-size: 14px;
+
+    }
+
+    /*////////////////////////////////////////////////////////*/
+    #Skill {
+        width: 100%;
+    }
+
+    #Skill h1 {
+        font-size: 70px;
+        position: relative;
+        top: -50px;
+        left: 300px;
+
+
+    }
+
+    #Skill h3 {
+        font-size: 20px;
+        position: relative;
+        left: 300px;
+        top: -150px;
+
+    }
+
+    #Skill div {
+        height: 300px;
+        position: relative;
+        top: -50px
 
     }
 }
