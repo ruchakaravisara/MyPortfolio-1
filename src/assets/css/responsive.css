@@ -452,3 +452,96 @@
         top: 390px;
     }
 }
+@media all and (max-width:1054px) and (min-width: 1025px){
+
+    #About h1{
+
+        position: relative;
+        left: 360px;
+
+
+
+    }
+    #About h3{
+
+        position: relative;
+        left: 400px;
+
+    }
+
+
+
+    #im {
+        height: 100px;
+        position: relative;
+        left: -40px;
+        top: 50px;
+    }
+
+    #cvv{
+      position: relative;
+        top: -170px;
+    }
+    #cvv:hover{
+        color : #1289CC;
+    }
+
+    #ed {
+        position: relative;
+        left: 300px;
+
+    }
+    #ed p{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    #Skill h1{
+        position: relative;
+        left: 490px;
+
+    }
+    #Skill h3{
+
+        position: relative;
+        left:490px;
+
+    }
+
+    #Skill div div{
+
+        width: 19%;
+        left: 100px;
+        text-align: center;
+
+    }
+    #Skill div div h4{
+       position: relative;
+        left:27px;
+    }
+
+    #servic{
+
+        position: relative;
+        top : -420px;
+        left:-140px;
+    }
+    #project{
+        position: relative;
+        top: -260px;
+    }
+    #section-wrapper{
+
+        position: relative;
+        top: -500px;
+
+
+    }
+
+    footer{
+
+        position: relative;
+        top: 210px;
+    }
+}
