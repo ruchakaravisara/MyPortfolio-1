@@ -210,5 +210,139 @@
         left: 300px;
 
     }
+    #Skill{
+        width: 100%;
+        position: relative;
+        left:-40px;
+        top:-30px
+    }
+    #servic{
 
+        position: relative;
+        top : -260px;
+
+    }
+    #servic div div{
+        height: 250px;
+        width: 250px;
+        position: relative;
+        left: 150px;
+        margin-right:20px ;
+        top:-80px;
+    }
+    #project h1{
+
+        position: relative;
+        width: 500px;
+        font-weight: bold;
+        top:-10px;
+        display:inline-block;
+
+    }
+    #project h3{
+        left:600px;
+        width: 500px;;
+        top: -150px;
+
+    }
+    footer{
+        height: 5px;
+        width: 100%;
+        position: relative;
+        top: -150px;
+    }
+    #section-wrapper{
+        width: 100%;
+
+        position: relative;
+        top: -650px;
+        height: 500px;
+
+    }
+    footer h4{
+        text-align: center;
+        font-family: 'Encode Sans Semi Condensed', sans-serif;
+
+    }
+
+}
+@media all and (max-width:1212px) and (min-width: 1025px){
+    #About div img{
+        width: 25%;
+        position: relative;
+        left: 200px;
+        top: -100px;
+    }
+    #edu{
+        position: relative;
+        top: -620px;
+        right: 450px;
+    }
+    #Skill{
+      position: relative;
+        top:-100px;
+        left: -50px;
+    }
+    #servic{
+
+        position: relative;
+        top : -270px;
+        left:-80px;
+    }
+    #project h1{
+
+        position: relative;
+        left: 470px;
+        width: 500px;
+
+    }
+    #project h3{
+
+        position: relative;
+        left:500px;
+
+        top: -140px;
+
+    }
+    footer {
+        height: 5px;
+        width: 100%;
+        position: relative;
+        top: -10px;
+    }
+}
+@media all and (max-width:1150px) and (min-width: 1025px){
+    #About {
+
+        position: relative;
+        left: -50px;
+    }
+    #Skill {
+        position: relative;
+        left: -100px;
+    }
+    #servic{
+        position: relative;
+        left: -110px;
+    }
+    }
+@media all and (max-width:1114px) and (min-width: 1025px){
+    #ruchaka{
+        position: relative;
+        left: 600px;
+
+    }
+    #cv{
+
+        position: relative;
+        left: 400px;
+
+    }
+
+    #hire{
+        position: relative;
+
+        left: 430px;
+
+    }
 }
