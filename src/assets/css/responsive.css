@@ -345,4 +345,110 @@
         left: 430px;
 
     }
+    #About{
+        position: relative;
+        left: -70px;
+    }
+    #About h1{
+
+        position: relative;
+        left: 450px;
+        top: -20px;
+    }
+    #About h3{
+
+        position: relative;
+        left: 500px;
+        top: -160px;
+
+
+    }
+
+    #edu{
+        position: relative;
+        top: -570px;
+        right: 320px;
+    }
+    #Skill h1{
+
+        position: relative;
+
+        left: 530px;
+
+
+    }
+    #Skill h3{
+
+        position: relative;
+        left:530px;
+
+    }
+    #servic h1{
+
+        position: relative;
+        left: 500px;
+
+
+
+    }
+    #servic h3{
+
+        position: relative;
+        left:520px;
+
+
+    }
+    #servic div{
+        display: inline-block;
+
+    }
+    #servic div div{
+        height: 260px;
+        background-color: #F4F4F4;
+        width: 400px;
+        border-radius: 5%;
+        position: relative;
+        left: 280px;
+        margin-right:20px ;
+        margin-bottom: 20px;
+        top:-80px;
+    }
+    #servic div div img{
+        width: 20%;
+        position: relative;
+        left: 150px;
+        top: 50px;
+    }
+    #project{
+        position: relative;
+        top: -100px;
+    }
+    #project h1{
+
+        position: relative;
+        left: 410px;
+        width: 500px;
+
+    }
+    #project h3{
+        position: relative;
+        left:440px;
+
+    }
+    #btnViewMore{
+        position: relative;
+        left: 300px;
+    }
+    #section-wrapper{
+
+        position: relative;
+        top: -300px;
+
+
+    }
+    footer{
+
+        position: relative;
+        top: 390px;
+    }
 }
