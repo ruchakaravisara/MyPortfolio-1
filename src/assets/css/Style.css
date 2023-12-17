@@ -190,7 +190,7 @@ span{
     opacity: 10%;
     position: relative;
     left: 500px;
-    width: 700px;
+    width: 500px;
     font-weight: bold;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
@@ -198,7 +198,7 @@ span{
     font-size: 30px;
     position: relative;
     left: 550px;
-    width: 700px;
+    width: 500px;
     top: -150px;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     font-weight: normal;
@@ -277,7 +277,7 @@ span{
     position: relative;
     top: -95px;
     left: 640px;
-    width: 700px;
+    width: 500px;
     font-weight: bold;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
@@ -285,7 +285,7 @@ span{
     font-size: 30px;
     position: relative;
     left:640px;
-    width: 700px;
+    width: 500px;
     top: -240px;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     font-weight: normal;
@@ -305,7 +305,7 @@ span{
 #Skill div div{
     display: inline-block;
     height: 100px;
-    width: 260px;
+
     left: 100px;
     margin-bottom: 40px;
     text-align: center;
@@ -326,7 +326,7 @@ span{
     opacity: 10%;
     position: relative;
     left: 610px;
-    width: 700px;
+    width: 500px;
     font-weight: bold;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
 
@@ -335,7 +335,7 @@ span{
     font-size: 30px;
     position: relative;
     left:640px;
-    width: 700px;
+    width: 500px;
     top: -150px;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     font-weight: normal;
@@ -352,6 +352,7 @@ span{
     position: relative;
     left: 120px;
     margin-right:20px ;
+    top:-80px;
 }
 #servic div div img{
     width: 20%;
@@ -377,14 +378,14 @@ span{
 /*////////////////////projects/////////////////////////*/
 #project{
     position: relative;
-    top: -290px;
+    top: -420px;
 }
 #project h1{
     font-size: 100px;
     opacity: 10%;
     position: relative;
     left: 610px;
-    width: 700px;
+    width: 500px;
     font-weight: bold;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
@@ -392,7 +393,7 @@ span{
     font-size: 30px;
     position: relative;
     left:640px;
-    width: 700px;
+    width: 500px;;
     top: -130px;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     font-weight: normal;
@@ -444,7 +445,7 @@ img {
     margin-inline: 1.5rem;
     padding-block: 5rem;
     position: relative;
-    top : -100px
+    top : -170px
 }
 
 .card__container {
@@ -623,7 +624,7 @@ img {
     width: 100%;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     position: relative;
-    top: -310px;
+    top: -700px;
     height: 500px;
 
 }
@@ -789,7 +790,7 @@ footer{
     height: 5px;
     width: 100%;
     position: relative;
-    top: 350px;
+    top: -50px;
 }
 footer h4{
     text-align: center;
