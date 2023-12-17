@@ -305,7 +305,7 @@ span{
 #Skill div div{
     display: inline-block;
     height: 100px;
-
+    width: 18%;
     left: 100px;
     margin-bottom: 40px;
     text-align: center;
