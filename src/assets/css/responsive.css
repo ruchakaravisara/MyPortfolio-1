@@ -982,10 +982,11 @@ position: relative;
     #edu{
         position: relative;
         top:-470px;
+        left:-200px
     }
     #ed p{
         position: relative;
-        left: -50px;
+        left: 150px;
         font-size: 15px;
     }
     #Skill{
@@ -996,10 +997,11 @@ position: relative;
         position: relative;
         top: -95px;
         left: 430px;
-        width: 500px;
+        width: 400px;
 
     }
     #Skill h3{
+        width: 400px;
         font-size: 23px;
         position: relative;
         left: 440px;
@@ -1066,5 +1068,63 @@ position: relative;
     footer{
         position: relative;
         top: -10px;
+    }
+    #ed{
+    left: 100px;
+    }
+}
+@media all and (max-width: 821px) and (min-width: 769px){
+    #servic div div{
+        left:200px;
+    }
+}
+@media all and (max-width: 769px) and (min-width: 425px){
+    body>header{
+        height: 8%;
+    }
+    #home{
+       height: 400px;
+
+    }
+    #hello{
+        font-size: 30px ;
+
+    }
+    #imruchaka{
+        font-size: 45px;
+        top: 23px;
+
+    }
+    #ruchaka{
+        font-size: 150px;
+     left:220px;
+
+
+    }
+    span{
+        font-size:38px ;
+        position: relative;
+        left: 100px;
+        top: -330px;
+    }
+    #home div a  {
+        width: 38px;
+        margin-left: 25px;
+        left: 70px;
+        position: relative;
+        top: -320px;
+
+    }
+    #cv{
+
+        position: relative;
+        top: -290px;
+        left: 220px;
+    }
+    #hire{
+        position: relative;
+        top: -290px;
+        left: 280px;
+
     }
 }
