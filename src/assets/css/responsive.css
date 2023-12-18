@@ -918,3 +918,153 @@ position: relative;
         top: -470px;
     }
 }
+@media all and (max-width: 851px) and (min-width: 769px){
+    #ruchaka{
+        position: relative;
+        left: 400px;
+
+    }
+    #cv{
+        position: relative;
+        left: 250px;
+
+    }
+    #hire{
+
+        position: relative;
+        left: 270px;
+
+    }
+    #About h1{
+        font-size: 80px;
+        left: 400px;
+        width: 400px;
+
+    }
+    #About h3{
+        font-size: 23px;
+        position: relative;
+        left: 450px;
+        width: 400px;
+
+    }
+    #About div img{
+        width: 26%;
+        position: relative;
+        left: 200px;
+        top: -50px;
+    }
+    #im ul li {
+        font-size: 15px;
+    }
+    #im {
+        position: relative;
+        left:-100px;
+        width: 400px;
+        top: 70px;
+    }
+    #im p {
+
+        position: relative;
+        font-size: 15px;
+        left: 550px;
+        top: -350px;
+        width: 450px;
+
+    }
+    #cvv{
+
+        position: relative;
+        top: -150px;
+        left: 500px;
+
+    }
+    #edu{
+        position: relative;
+        top:-470px;
+    }
+    #ed p{
+        position: relative;
+        left: -50px;
+        font-size: 15px;
+    }
+    #Skill{
+        top:-280px
+    }
+    #Skill h1{
+        font-size: 80px;
+        position: relative;
+        top: -95px;
+        left: 430px;
+        width: 500px;
+
+    }
+    #Skill h3{
+        font-size: 23px;
+        position: relative;
+        left: 440px;
+    }
+    #servic{
+
+        position: relative;
+        top : -560px;
+        left:-115px;
+    }
+    #servic h1{
+        font-size: 80px;
+        position: relative;
+        left: 410px;
+        width: 400px;
+
+    }
+    #servic h3{
+        font-size: 23px;
+        position: relative;
+        left:440px;
+        width:400px;
+
+
+    }
+    #servic div div{
+        height: 260px;
+        background-color: #F4F4F4;
+        width: 300px;
+        border-radius: 5%;
+        position: relative;
+        left: 240px;
+        margin-right:20px ;
+        top:-80px;
+    }
+    #servic div div:nth-child(4){
+        position: relative;
+        top:-75px;
+    }
+    #project{
+        position: relative;
+        top: -430px;
+    }
+    #project h1{
+        font-size: 80px;
+        position: relative;
+        left: 310px;
+        width: 400px;
+        top:-20px;
+
+    }
+    #project h3{
+        font-size: 23px;
+        position: relative;
+        left:340px;
+        width: 400px;;
+
+    }
+    .containerr {
+
+        position: relative;
+        top: -650px;
+    }
+    footer{
+        position: relative;
+        top: -10px;
+    }
+}
