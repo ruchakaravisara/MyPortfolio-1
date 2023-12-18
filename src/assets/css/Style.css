@@ -620,7 +620,68 @@ img {
     text-decoration: none;
 }
 /*/////////////////////contact//////////////////////////*/
-#section-wrapper{
+.containerr {
+    min-height: 85vh;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(19,103,121,1) 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+  /*  background: url("../img/bgg.png") no-repeat center center/cover;*/
+    position: relative;
+    top: -650px;
+}
+
+.containerr form {
+    width: 100%;
+    max-width: 670px; /* Set a maximum width */
+    padding: 20px; /* Add padding for better spacing */
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.containerr form h1 {
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.containerr form input,
+.containerr form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid #fff;
+}
+
+.containerr form #button {
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    width: 100%;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .containerr form {
+        max-width: 100%;
+    }
+}
+
+
+/*#section-wrapper{
     width: 100%;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
     position: relative;
@@ -645,7 +706,7 @@ img {
     float: left;
     display: block;
 
-    /*background: linear-gradient(144deg,rgba(126,39,156,1)0%,rgba(49,39,157,1)100%);*/
+    !*background: linear-gradient(144deg,rgba(126,39,156,1)0%,rgba(49,39,157,1)100%);*!
    background: #F4F4F4;
     color: black;
 
@@ -760,7 +821,7 @@ img {
     margin: 14px 12px;
     border-radius: 15px;
     border:1px solid black;
-    /*box-shadow: inset 8px 8px 8px whitesmoke ,inset -8px -8px -8px white;*/
+    !*box-shadow: inset 8px 8px 8px whitesmoke ,inset -8px -8px -8px white;*!
 }
 .form-fields .form-group:last-child{
     width: 96%;
@@ -784,13 +845,13 @@ img {
     background:white ;
     color: black;
 
-}
+}*/
 /*////////////footer//////////////*/
 footer{
     height: 5px;
     width: 100%;
     position: relative;
-    top: -50px;
+    top: 100px;
 }
 footer h4{
     text-align: center;
