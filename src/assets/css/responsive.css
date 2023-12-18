@@ -880,3 +880,41 @@ position: relative;
         top: 200px;
     }
 }
+@media all and (max-width: 969px) and (min-width: 769px){
+    #servic div div{
+
+        position: relative;
+        left: 160px;
+
+    }
+    #edu{
+        position: relative;
+        top: -500px;
+    }
+}
+@media all and (max-width: 906px) and (min-width: 769px){
+    #im ul li{
+        width: 300px;
+    }
+    #im ul{
+        width: 300px;
+    }
+    #servic div div{
+        position: relative;
+        left: 130px;
+
+    }
+    #im {
+      position: relative;
+        left: -50px;
+    }
+    #im p {
+
+        position: relative;
+        left: 550px;
+        top: -350px;
+    }
+    #edu{
+        top: -470px;
+    }
+}
