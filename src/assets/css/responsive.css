@@ -1119,12 +1119,182 @@ position: relative;
 
         position: relative;
         top: -290px;
-        left: 220px;
+        left: 100px;
     }
     #hire{
         position: relative;
-        top: -290px;
-        left: 280px;
+        top: -289px;
+        left: 130px;
 
+    }
+    #About{
+    }
+    #About h1{
+        font-size: 70px;
+        position: relative;
+        left: 210px;
+        width: 350px;
+        top: -30px;
+
+    }
+    #About h3{
+        font-size: 20px;
+        position: relative;
+        left: 260px;
+        width: 350px;
+        top: -130px
+    }
+    #About div img{
+        width: 30%;
+        position: relative;
+        left: 30px;
+        top: -70px;
+    }
+    #im {
+        width: 300px;
+
+    }
+    #im ul  {
+        font-size: 14px;
+        left:300px;
+        top: -350px;
+    }
+    #im p {
+        position: relative;
+        font-size: 14px;
+        left: 290px;
+        top: -320px;
+        width: 350px;
+    }
+    #cvv{
+        position: relative;
+        top: -160px;
+        left: 320px;
+    }
+    #ed {
+        left: -190px;
+
+    }
+    #ed p{
+        position: relative;
+        font-size: 14px;
+        width: 600px;
+        left:290px;
+    }
+
+    #Skill{
+        position: relative;
+       top: -270px;
+    }
+    #Skill h1{
+        font-size: 70px;
+        position: relative;
+        left: 290px;
+        width: 300px;
+
+    }
+    #Skill h3{
+        font-size: 20px;
+        position: relative;
+        left:300px;
+        top: -190px;
+        width: 300px;
+
+    }
+    #Skill div{
+        height: 250px;
+        position: relative;
+        left: -120px;
+
+    }
+    #Skill div div img{
+        width:22%;
+        position: relative;
+        left: 55px;
+        top: -10px;
+    }
+    #Skill div div{
+        display: inline-block;
+        height: 100px;
+        width: 18%;
+        left: 140px;
+        margin-bottom: 40px;
+        text-align: center;
+        top: -20px;
+    }
+
+    #servic{
+
+        position: relative;
+        top : -420px
+    }
+    #servic h1{
+        font-size: 70px;
+        position: relative;
+        left: 260px;
+        width: 300px;
+
+
+    }
+    #servic h3{
+        font-size: 20px;
+        position: relative;
+        left:290px;
+        width: 300px;
+        top: -100px;
+
+    }
+    #servic div{
+        display: inline-block;
+        position: relative;
+        top:40px;
+        left: -50px;
+
+    }
+    #servic div div{
+        width: 250px;
+        position: relative;
+        left: 160px;
+        margin-right:20px ;
+        top:-80px;
+        margin-bottom: 20px;
+    }
+    #servic div div img{
+        position: relative;
+        left: 110px;
+    }
+    #project{
+        position: relative;
+        top: -290px;
+    }
+    #project h1{
+        font-size: 70px;
+        position: relative;
+        left: 270px;
+        width: 300px;
+    }
+    #project h3{
+        font-size: 20px;
+        position: relative;
+        left:310px;
+        width: 300px;;
+        top: -90px;
+    }
+    .container{
+        position: relative;
+        top: -80px;
+    }
+    #btnViewMore {
+   position: relative;
+        left: 250px;
+    }
+    .containerr {
+        position: relative;
+        top: -440px;
+    }
+    footer{
+
+        position: relative;
+        top: -50px;
     }
 }
