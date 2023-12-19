@@ -1298,3 +1298,105 @@ position: relative;
         top: -50px;
     }
 }
+@media all and (max-width: 769px) and (min-width: 425px){
+    #btnViewMore {
+       position: relative;
+        left: 100px;
+    }
+    footer{
+        position: relative;
+        top: 600px;
+    }
+}
+@media all and (max-width: 679px) and (min-width: 425px){
+    #ed p{
+        position: relative;
+        left: 220px;
+    }
+}
+@media all and (max-width: 646px) and (min-width: 425px){
+    #About h1{
+        position: relative;
+        left: 170px;
+    }
+    #About h3{
+        position: relative;
+        left: 200px;
+
+    }
+    #About div img{
+        width: 35%;
+        position: relative;
+
+    }
+    #im ul li {
+     font-size: 13px;
+        width: 200px;
+    }
+    #im ul  {
+
+        width: 200px;
+    }
+    #im p {
+        font-size: 13px;
+        width: 250px;
+        top: -334px;
+    }
+    #cvv{
+         height: 30px;
+         width: 115px;
+         font-size: 14px;
+         position: relative;
+     }
+    #ed p{
+        font-size: 13px;
+     width: 500px;
+        top:-30px;
+    }
+    #Skill h1{
+
+        position: relative;
+        left: 240px;
+    }
+    #Skill h3{
+        position: relative;
+        left:240px;
+
+    }
+    #servic{
+        position: relative;
+     left: -50px;
+    }
+    #project h1{
+
+        position: relative;
+        left: 210px;
+
+
+    }
+    #project h3{
+        position: relative;
+        left:240px;
+
+    }
+
+}
+@media all and (max-width: 605px) and (min-width: 425px){
+    #servic div div{
+       width: 200px;
+        left:170px;
+    }
+    #servic div div img{
+        position: relative;
+        left: 80px;
+
+    }
+    #servic div div:nth-child(2){
+        position: relative;
+        top: -90px;
+    }
+    #servic div div:nth-child(4){
+        position: relative;
+        top: -63px;
+    }
+}
