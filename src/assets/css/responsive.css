@@ -1400,3 +1400,159 @@ position: relative;
         top: -63px;
     }
 }
+@media all and (max-width: 545px) and (min-width: 425px){
+    #ruchaka{
+
+        left: 10px;
+    }
+    #ed{
+        width: 300px;
+    }
+    #About h1{
+        font-size: 60px;
+        position: relative;
+        left: 120px;
+        width: 300px;
+    }
+    #About h3{
+        font-size: 18px;
+        position: relative;
+        left: 150px;
+        width: 300px;
+        top:-120px;
+
+    }
+    #About div img{
+        width: 60%;
+        position: relative;
+        left: 90px;
+        top: -80px;
+    }
+    #im ul li {
+        position: relative;
+        left: -200px;
+        top:300px;
+    }
+    #im p {
+        position: relative;
+        left: 90px;
+        top: -40px;
+        width: 320px;
+    }
+    #cvv{
+        position: relative;
+        top: 220px;
+        left: 200px;
+
+    }
+    #ed p{
+
+        font-size: 13px;
+     position: relative;
+        width: 300px;
+        top:190px;
+        left:280px;
+    }
+    #Skill{
+       position: relative;
+        top: 150px;
+    }
+    #Skill h1{
+        font-size: 60px;
+        position: relative;
+        left: 150px;
+
+
+    }
+    #Skill h3{
+        font-size: 18px;
+        position: relative;
+        left: 150px;
+        width:200px;
+
+    }
+
+    #Skill div div img{
+        width:25%;
+        position: relative;
+        left: 105px;
+        top: -10px;
+    }
+    #Skill div div{
+        display: inline-block;
+        height: 100px;
+        width: 23%;
+        left: 70px;
+        margin-bottom: 40px;
+        text-align: center;
+
+    }
+    #Skill div div h4{
+        position: relative;
+        left: 60px;
+    }
+    #servic{
+        position: relative;
+        top: 140px;
+    }
+
+    #servic h1{
+        font-size:60px;
+        left: 190px;
+
+    }
+    #servic h3{
+        font-size: 18px;
+        position: relative;
+        left:200px;
+        top: -90px;
+
+    }
+    #servic div div{
+
+        position: relative;
+        left: 140px;
+
+    }
+    #project{
+        position: relative;
+        top: 270px;
+    }
+    #project h1{
+        font-size: 60px;
+        opacity: 10%;
+        position: relative;
+        left: 150px;
+    }
+    #project h3{
+        font-size: 18px;
+        position: relative;
+        left:200px;
+        top: -80px;
+        width: 200px;
+
+
+    }
+    .containerr {
+
+        position: relative;
+        top: 150px;
+    }
+    footer h4{
+        position: relative;
+        top: 500px;
+
+    }
+}
+@media all and (max-width: 463px) and (min-width: 425px){
+    #im ul{
+        position: relative;
+        left: -100px;
+    }
+    #im ul li {
+        left: 200px;
+    }
+    #servic div div{
+        left: 120px;
+    }
+}
