@@ -1568,7 +1568,7 @@ position: relative;
         top: -80px;
     }
 }
-@media all and (max-width: 430px) and (min-width: 375px){
+@media all and (max-width: 430px){
     body>header{
         height: 10%;
 
@@ -1628,5 +1628,135 @@ position: relative;
         position: relative;
         top: -250px;
         left: 60px;
+    }
+    #About h1{
+        font-size: 45px;
+        position: relative;
+        left: 100px;
+        width: 230px;
+
+    }
+    #About h3{
+        font-size: 15px;
+        position: relative;
+        left: 110px;
+        width: 200px;
+        top: -95px;
+
+    }
+    #About div img{
+        width: 70%;
+        position: relative;
+        left: 60px;
+        top: -50px;
+    }
+    #im ul li {
+      left: 180px;
+        top: 320px;
+    }
+    #im p {
+        position: relative;
+        left: 63px;
+        width: 300px;
+        top: -20px;
+
+    }
+    #ed p{
+
+        font-size: 14px;
+        font-weight: bold;
+        top: 220px;
+        left: 250px;
+    }
+    #cvv{
+        height: 35px;
+        width: 125px;
+        font-size: 15px;
+        position: relative;
+        top: 290px;
+        left: 120px;
+
+    }
+    #Skill h1{
+        font-size: 55px;
+        left:140px;
+        width: 230px;
+
+    }
+    #Skill h3{
+        font-size: 15px;
+        position: relative;
+        left:140px;
+        width: 230px;
+        top: -170px;
+
+    }
+    #Skill{
+        top: 100px;
+    }
+    #servic{
+
+        position: relative;
+        top : 50px
+    }
+    #servic h1{
+        font-size: 45px;
+        left: 190px;
+        width: 240px;
+
+
+    }
+    #servic h3{
+        font-size: 15px;
+        position: relative;
+        left:200px;
+        width: 240px;
+        top: -70px;
+
+
+    }
+    #servic div div{
+        height: 260px;
+        width: 300px;
+        position: relative;
+        left: 150px;
+        margin-right:20px ;
+        top:-80px;
+
+    }
+    #servic div div:nth-child(1){
+      margin-bottom: 50px;
+    }
+    #servic div div img{
+        position: relative;
+        left: 120px;
+    }
+    #project{
+        position: relative;
+        top: 700px;
+    }
+    #project h1{
+        font-size: 45px;
+        top: 20px;
+        left: 130px;
+        width: 240px;
+
+    }
+    #project h3{
+        font-size: 15px;
+        position: relative;
+        left:150px;
+        width: 240px;;
+        top: -40px;
+    }
+    .containerr {
+        position: relative;
+        top: 550px;
+    }
+    footer{
+        height: 5px;
+
+        position: relative;
+        top: 940px;
     }
 }
