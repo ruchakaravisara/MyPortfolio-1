@@ -1556,3 +1556,77 @@ position: relative;
         left: 120px;
     }
 }
+@media all and (max-width: 445px) and (min-width: 425px){
+    #servic div div{
+        width: 150px;
+        left: 150px;
+    }
+    #servic div div:nth-child(2){
+       top: -108px;
+    }
+    #servic div div:nth-child(4){
+        top: -80px;
+    }
+}
+@media all and (max-width: 430px) and (min-width: 375px){
+    body>header{
+        height: 10%;
+
+
+    }
+    #home{
+        height: 400px;
+
+    }
+    #hello{
+        font-size: 25px ;
+        left: 20px;
+        top: 40px;
+    }
+    #imruchaka{
+        font-size: 30px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+        width: 300px;
+    }
+    #ruchaka{
+        opacity: 1%;
+
+
+
+    }
+    span{
+        font-size:30px ;
+        position: relative;
+        left: 20px;
+        top: -300px;
+    }
+    #home div a  {
+        width: 34px;
+        height: 34px;
+        font-size: 20px;
+        margin-left: 10px;
+        left: 10px;
+        position: relative;
+        top: -280px;
+
+    }
+    #cv{
+        height: 25px;
+        width: 100px;
+        font-size: 16px;
+        position: relative;
+        top: -250px;
+        left: 30px;
+
+    }
+    #hire{
+        height: 25px;
+        width: 100px;
+        font-size: 16px;
+        position: relative;
+        top: -250px;
+        left: 60px;
+    }
+}
