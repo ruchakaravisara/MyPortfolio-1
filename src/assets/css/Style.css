@@ -677,12 +677,12 @@ img {
 /*/////////////////////contact//////////////////////////*/
 .containerr {
     min-height: 85vh;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(19,103,121,1) 92%);
+   /* background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(19,103,121,1) 92%);*/
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Encode Sans Semi Condensed', sans-serif;
-  /*  background: url("../img/bgg.png") no-repeat center center/cover;*/
+    background: url("../img/Home.jpg") no-repeat center center/cover;
     position: relative;
     top: -650px;
 }
