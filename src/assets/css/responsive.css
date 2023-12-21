@@ -1568,7 +1568,7 @@ position: relative;
         top: -80px;
     }
 }
-@media all and (max-width: 430px){
+@media all and (max-width: 430px) and (min-width: 375px){
     body>header{
         height: 10%;
 
@@ -1758,5 +1758,229 @@ position: relative;
 
         position: relative;
         top: 940px;
+    }
+
+}
+@media all and (max-width: 425px) and (min-width: 375px){
+    body>header{
+        height: 10%;
+
+
+    }
+    #home{
+        height: 400px;
+
+    }
+    #hello{
+        font-size: 25px ;
+        left: 20px;
+        top: 40px;
+    }
+    #imruchaka{
+        font-size: 30px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+        width: 300px;
+    }
+    #ruchaka{
+        opacity: 1%;
+
+
+
+    }
+    span{
+        font-size:30px ;
+        position: relative;
+        left: 20px;
+        top: -300px;
+    }
+    #home div a  {
+        width: 34px;
+        height: 34px;
+        font-size: 20px;
+        margin-left: 10px;
+        left: 10px;
+        position: relative;
+        top: -280px;
+
+    }
+    #cv{
+        height: 25px;
+        width: 100px;
+        font-size: 16px;
+        position: relative;
+        top: -250px;
+        left: 30px;
+
+    }
+    #hire{
+        height: 25px;
+        width: 100px;
+        font-size: 16px;
+        position: relative;
+        top: -250px;
+        left: 60px;
+    }
+    #About h1{
+        font-size: 45px;
+        position: relative;
+        left: 100px;
+        width: 230px;
+
+    }
+    #About h3{
+        font-size: 15px;
+        position: relative;
+        left: 110px;
+        width: 200px;
+        top: -65px;
+
+    }
+    #About div img{
+        width: 70%;
+        position: relative;
+        left: 60px;
+        top: -50px;
+    }
+    #im ul li {
+        left: 180px;
+        top: 320px;
+        font-size: 13px;
+        width: 200px;
+    }
+    #im ul{
+        position: relative;
+        left:80px;
+        top: -40px;
+    }
+    #im p {
+        font-size: 13px;
+        position: relative;
+        left: 63px;
+        width: 300px;
+        top: -20px;
+
+    }
+    #ed p{
+
+        font-size: 13px;
+        font-weight: bold;
+        top: 220px;
+        left: 250px;
+    }
+    #ed{
+        position: relative;
+        left: 60px;
+        top: 100px;
+        width:300px;
+    }
+    #cvv{
+        height: 35px;
+        width: 125px;
+        font-size: 15px;
+        position: relative;
+        top: 290px;
+        left: 120px;
+
+    }
+
+    #Skill h1{
+        font-size: 55px;
+        left:140px;
+        width: 230px;
+    top:10px
+    }
+    #Skill h3{
+        font-size: 15px;
+        position: relative;
+        left:140px;
+        width: 230px;
+        top: -70px;
+
+    }
+    #Skill div{
+        height: 300px;
+        position: relative;
+        top :-10px;
+        left:-100px;
+    }
+    #Skill div div img{
+        width:40%;
+        position: relative;
+        left: 20px;
+        top: -10px;
+    }
+    #Skill div div{
+        display: inline-block;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left:25px;
+        left:80px;
+    }
+    #servic{
+
+        position: relative;
+        top : 50px
+    }
+    #servic h1{
+        font-size: 45px;
+        left: 110px;
+        width: 240px;
+
+
+    }
+    #servic h3{
+        font-size: 15px;
+        position: relative;
+        left:120px;
+        width: 240px;
+        top: -70px;
+
+
+    }
+    #servic div div{
+        height: 260px;
+        width: 300px;
+        position: relative;
+        left: 40px;
+        margin-right:20px ;
+        top:-40px;
+
+    }
+    #servic div div:nth-child(1){
+        margin-bottom: 50px;
+    }
+    #servic div div img{
+        position: relative;
+        left: 120px;
+    }
+    #project{
+        position: relative;
+        top: 750px;
+    }
+    #project h1{
+        font-size: 45px;
+        top: -60px;
+        left: 120px;
+        width: 240px;
+
+    }
+    #project h3{
+        font-size: 15px;
+        position: relative;
+        left:140px;
+        width: 240px;;
+        top: -120px;
+    }
+    .containerr {
+        position: relative;
+        top: 550px;
+    }
+    footer{
+        height: 5px;
+
+        position: relative;
+        top:1480px;
     }
 }
