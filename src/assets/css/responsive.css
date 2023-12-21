@@ -1998,10 +1998,39 @@ position: relative;
         top:1480px;
     }
 }
+@media all and (max-width: 425px){
+    #servic div div{
+
+        margin-bottom: 20px;
+
+    }
+    #servic div div:nth-child(1){
+
+        top: -10px;
+
+    }
+    #project{
+        position: relative;
+        top: 770px;
+    }
+}
 @media all and (max-width: 401px){
     #Skill div div{
         left:130px;
         margin-bottom: 10px;
+    }
+    #servic div div{
+
+        margin-bottom: 20px;
+
+    }
+    #servic div div:nth-child(1){
+        top: -10px;
+
+    }
+    #project{
+
+        top: 770px;
     }
 }
 @media all and (max-width: 375px){
@@ -2190,23 +2219,26 @@ position: relative;
     }
     #servic div div{
         height: 260px;
-        width: 290px;
+        width: 270px;
         position: relative;
-        left: 15px;
+        left: 40px;
         margin-right:20px ;
         top:-40px;
+        margin-bottom: 20px;
 
     }
-    #servic div div:nth-child(1){
-        margin-bottom: 50px;
-    }
+
     #servic div div img{
         position: relative;
         left: 120px;
     }
+    #servic div div:nth-child(1){
+        position: relative;
+       top: -10px;
+    }
     #project{
         position: relative;
-        top: 780px;
+        top: 820px;
     }
     #project h1{
         font-size: 45px;
@@ -2232,12 +2264,36 @@ position: relative;
     }
     .containerr {
         position: relative;
-        top: 550px;
+        top: 590px;
     }
     footer{
         height: 5px;
 
         position: relative;
-        top:1480px;
+        top:1500px;
+    }
+}
+@media all and (max-width: 347px){
+    #servic div div{
+        height: 260px;
+        width: 270px;
+        position: relative;
+        left: 30px;
+        margin-right:20px ;
+        top:-40px;
+        margin-bottom: 20px;
+
+    }
+}
+@media all and (max-width: 327px){
+    #servic div div{
+        height: 260px;
+        width: 270px;
+        position: relative;
+        left: 25px;
+        margin-right:20px ;
+        top:-40px;
+        margin-bottom: 20px;
+
     }
 }
