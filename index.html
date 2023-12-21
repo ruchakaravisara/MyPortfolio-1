@@ -27,19 +27,35 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-            <li><a href="#homePage">Home</a></li>
-            <li><a href="#aboutMe">About Me</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#Service">Service</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
+<header>
+    <div class="navbar">
+        <div class="navbar-logo">Ruchaka</div>
+        <nav class="navbar-links">
+            <a href="#homePage">Home</a>
+            <a href="#aboutMe">About</a>
+            <a href="#Education">Education</a>
+            <a href="#skills">Skill</a>
+            <a href="#Service">Service</a>
+            <a href="#projects">Project</a>
+            <a href="#contact">Contact</a>
         </nav>
-    </header>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+</header>
+
+<div class="sidenav">
+    <a href="#homePage" onclick="closeNav()">Home</a>
+    <a href="#aboutMe" onclick="closeNav()">About</a>
+    <a href="#Education" onclick="closeNav()">Education</a>
+    <a href="#skills" onclick="closeNav()">Skill</a>
+    <a href="#Service" onclick="closeNav()">Service</a>
+    <a href="#projects" onclick="closeNav()">Project</a>
+    <a href="#contact" onclick="closeNav()">Contact</a>
+</div>
 
 <main>
     <dfn id="homePage"></dfn>
@@ -295,6 +311,7 @@
             </div>
         </div>
     </section>-->
+    <dfn id="contact"></dfn>
     <section class="containerr">
         <form>
             <h1>Contact Us Form</h1>
@@ -312,7 +329,16 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="src/assets/js/Style.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+<script>
+    function toggleMenu() {
+        var sidenav = document.querySelector('.sidenav');
+        sidenav.style.width = sidenav.style.width === '250px' ? '0' : '250px';
+    }
 
+    function closeNav() {
+        document.querySelector('.sidenav').style.width = '0';
+    }
+</script>
 
 </body>
 <footer>

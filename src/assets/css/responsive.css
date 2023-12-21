@@ -1569,11 +1569,11 @@ position: relative;
     }
 }
 @media all and (max-width: 430px) and (min-width: 375px){
-    body>header{
+    /*body>header{
         height: 10%;
 
 
-    }
+    }*/
     #home{
         height: 400px;
 
@@ -1762,11 +1762,11 @@ position: relative;
 
 }
 @media all and (max-width: 425px){
-    body>header{
+  /*  body>header{
         height: 10%;
 
 
-    }
+    }*/
     #home{
         height: 400px;
 
@@ -2034,11 +2034,11 @@ position: relative;
     }
 }
 @media all and (max-width: 375px){
-    body>header{
+    /*body>header{
         height: 13%;
 
 
-    }
+    }*/
     #home{
         height: 400px;
 

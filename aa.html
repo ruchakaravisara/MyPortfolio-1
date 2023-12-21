@@ -2,77 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
 
-        .loading-screen {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #fff;
-            z-index: 1000;
-        }
-
-        .loading-spinner {
-            border: 8px solid #3498db;
-            border-top: 8px solid #e74c3c;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            animation: spin 1s linear infinite;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        /* Your main content styles go here */
-        .main-content {
-            /* Add your main content styling here */
-            display: none; /* Hide the main content by default */
-        }
-    </style>
 </head>
 <body>
+<header>
+    <div class="navbar">
+        <div class="navbar-logo">Logo</div>
+        <nav class="navbar-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </div>
+</header>
 
-<!-- Loading Screen -->
-<div class="loading-screen">
-    <div class="loading-spinner"></div>
+<div class="sidenav">
+    <a href="#" onclick="closeNav()">Home</a>
+    <a href="#" onclick="closeNav()">About</a>
+    <a href="#" onclick="closeNav()">Services</a>
+    <a href="#" onclick="closeNav()">Contact</a>
 </div>
 
-<!-- Main Content -->
-<div class="main-content">
-    <!-- Your website's main content goes here -->
-    <h1>Welcome to Your Website!</h1>
-    <!-- Add the rest of your content -->
-</div>
-
-<!-- JavaScript to hide loading screen when content is loaded -->
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        // Simulate loading delay (you can remove this in a real scenario)
-        setTimeout(function () {
-            // Hide the loading screen
-            document.querySelector(".loading-screen").style.display = "none";
-            // Show the main content
-            document.querySelector(".main-content").style.display = "block";
-        }, 2000); // Change the duration as needed
-    });
-</script>
+    function toggleMenu() {
+        var sidenav = document.querySelector('.sidenav');
+        sidenav.style.width = sidenav.style.width === '250px' ? '0' : '250px';
+    }
 
+    function closeNav() {
+        document.querySelector('.sidenav').style.width = '0';
+    }
+</script>
 </body>
 </html>
