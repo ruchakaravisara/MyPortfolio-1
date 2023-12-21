@@ -1761,7 +1761,7 @@ position: relative;
     }
 
 }
-@media all and (max-width: 425px) and (min-width: 375px){
+@media all and (max-width: 425px){
     body>header{
         height: 10%;
 
@@ -1996,5 +1996,11 @@ position: relative;
 
         position: relative;
         top:1480px;
+    }
+}
+@media all and (max-width: 401px){
+    #Skill div div{
+        left:130px;
+        margin-bottom: 10px;
     }
 }
