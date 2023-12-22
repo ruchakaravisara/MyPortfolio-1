@@ -324,7 +324,7 @@
             <input type="button" value="Send" id="button">
         </form>
     </section>
-
+    <button id="callButton" onclick="makeCall()"></button>
 </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="src/assets/js/Style.js"></script>
@@ -337,6 +337,14 @@
 
     function closeNav() {
         document.querySelector('.sidenav').style.width = '0';
+    }
+</script>
+<script>
+    // Replace 'your-phone-number' with your actual phone number
+    const phoneNumber = 'your-phone-number';
+
+    function makeCall() {
+        window.location.href = `tel:${phoneNumber}`;
     }
 </script>
 
