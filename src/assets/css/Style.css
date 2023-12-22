@@ -77,7 +77,7 @@ header {
     font-size: 19px;
     font-weight: bold;
 }
-.navbar-links a :hover{
+.navbar-links  :hover{
     color: #1289CC;
 
 }
@@ -117,7 +117,7 @@ header {
 }
 
 .sidenav a:hover {
-    color: #ff8c00;
+    color: #1289CC;
 }
 
 @media screen and (max-width: 768px) {
