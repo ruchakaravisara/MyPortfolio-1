@@ -741,7 +741,7 @@ footer h4{
     width: 50px; /* Set the width and height to create a circle */
     height: 50px;
     background-color: #6c757d; /* Make the background transparent */
-    background-image: url('../img/whatsapp.png'); /* Replace with the path to your image */
+    background-image: url('../img/phonee.png'); /* Replace with the path to your image */
     background-size: cover; /* Adjust the background image size */
     color: #fff;
     border: none;
