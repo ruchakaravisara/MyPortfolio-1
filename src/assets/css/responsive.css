@@ -1303,21 +1303,9 @@ position: relative;
        position: relative;
         left: 100px;
     }
-    footer {
+    footer{
         position: relative;
-        top: -10px;
-    }
-}
-@media all and (max-width: 769px) and (min-width: 425px){
-    #btnViewMore {
-        position: relative;
-        left: 100px;
-    }
-
-}
-@media all and (max-width: 768px) and (min-width: 425px){
-    footer {
-        top: 640px;
+        top: 600px;
     }
 }
 @media all and (max-width: 679px) and (min-width: 425px){
