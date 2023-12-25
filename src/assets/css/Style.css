@@ -661,7 +661,6 @@ img {
 /*/////////////////////contact//////////////////////////*/
 .containerr {
     min-height: 85vh;
-   /* background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(19,103,121,1) 92%);*/
     display: flex;
     justify-content: center;
     align-items: center;

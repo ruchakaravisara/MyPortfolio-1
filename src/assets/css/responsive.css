@@ -1957,6 +1957,7 @@ position: relative;
     #servic div div:nth-child(1){
         margin-bottom: 50px;
     }
+
     #servic div div img{
         position: relative;
         left: 120px;
@@ -1965,12 +1966,12 @@ position: relative;
         position: relative;
         top: 750px;
     }
+
     #project h1{
         font-size: 45px;
         top: -60px;
         left: 120px;
         width: 240px;
-
     }
     #project h3{
         font-size: 15px;
